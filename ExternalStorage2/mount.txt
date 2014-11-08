@@ -1,0 +1,5 @@
+/mnt/ is empty by default.  Therefore, can
+
+sudo mount /dev/sda1/ /mnt/
+
+
