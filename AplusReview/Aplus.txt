@@ -1,0 +1,19 @@
+On 10th November, after much speculation, the Raspberry Pi Foundation officially revealed the Raspberry Pi A+ model. In much the same way that the model A was a Raspberry Pi model B with half the available RAM and the wired network and USB interfaces replaced with a single USB socket. The model A+ mirrors the model B+ (launched on July 14th) with the same modifications, but also with a shorter printed circuit board. The model B+ is 85mm long, the model A+ is only 65mm long. The model A+ has also been on a diet and drops from 41g to 23g in weight.
+
+So we now have a computer which is smaller than a credit card.
+
+The first thing that strikes you is that the mounting holes (which looked a bit odd on the B+) are now in each corner of the A+. The GPIO pins are in the same place and we've got the full 40-pin header. The left hand 26-pins are "plug compatible" with the original model A & B. More on that later when I try all of my model B peripherals on my model A+.
+
+
+
+Looking at the top of the board apart from the GPIO pins & USB there are five other connectors. Working from left to right they are the DSI (display interface), micro USB socket (purely for power), HDMI, CSI (camera interface) and the combined 3.5mm audio and analogue video socket. The microUSB socket moved round the corner. The 3.5mm socket moved from the top of the board to the bottom right. The other three are in roughly the same place as before. 
+
+With the model B+ there has been lots of trouble for folks who can't use HDMI and choose analogue audio and video. Matt Hawkins has an excellent web page/blog entry at http://www.raspberrypi-spy.co.uk/2014/07/raspberry-pi-model-b-3-5mm-audiovideo-jack/ which clears up the confusion. That same info works with the model A+.
+
+Turning the board over there are some components, lots of test points (so that Sony can trap any dud boards during manufacture) and the microSD card slot. That's a bit different from the model A & B where it was a full size slot so we're going to have to clone our full-size SD cards to microSD before we can use them in a model A+. 
+
+The current versions of NOOBS, NOOBS lite and the other OS images from http://www.raspberrypi.org/download will all work on a model A+, we just need a USB microSD carrier or a microSD to SD adapter to work with those on our Windows, Linux or MAC OSX systems. The existing instructions don't change, the process of building a bootable microSD card is the same. [For my first tests with the model A+ I simply cloned an existing SD card to a microSD card. The process for doing that is well documented on http://www.raspberrypi.org/forum (the fount of all knowledge).]
+
+So we boot Raspbian on the model A+ and take a look at the differences from a software point of view. First major difference is that the A+ only has half the available RAM (256M) compared to a model B or B+ (512M). The second difference is that (unless we use a USB WiFi dongle, USB wired ethernet dongle or SPI ENC28J60 SPI ethernet board) there is NO NETWORK. We're also going to need a USB HUB because a USB keyboard, USB mouse and USB WiFi won't all fit in a single USB socket. 
+
+Because I have a SPI ENC28J60 ethernet board in my box of Arduino bits I'm going to give that a go but that's going to need a custom made Linux kernel to get that one working. For the average model A+ user I'd recommend getting a Tenda W311M Wireless-N150 USB WiFi dongle which has the RT5370 chipset or an Edimax EW-7811Un (rtl8188cus chipset) nano USB dongle as both of those have the drivers built-in to the standard Raspbian distribution. Remember without a working network you'd get into a catch-22 situation if you try to use a WiFi dongle that needs a special driver downloaded from the Internet unless you can use another Raspberry Pi to get the driver downloaded onto your microSD card.
