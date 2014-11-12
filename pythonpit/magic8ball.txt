@@ -1,0 +1,368 @@
+A while back, I had never really touched graphical programming. However after reading through Raspberry Pi in Easy Steps (1)  I decided to have a go myself. As I have started to write my own graphical programs I wanted to see if I could recreate a Magic 8 Ball. 
+
+Once you are familiar with creating programs in Python that run from the console the next step up from this is to creatre programs that will run in a window (noting that not all programs are suitable to run in this way). We are going to use Tkinter, which according to the Python Wiki https://wiki.python.org/moin/TkInter is Python's de-facto standard GUI (Graphical User Interface) package.
+
+We are going to build up our GUI step by step so that you can see exactly what is needed, starting initially with a few concepts in Tkinter before moving onto our Magic 8 Ball. But first, it is back to the command line to install Tkinter with the following command:
+sudo apt-get install python-tk
+
+With that done we can create the start of our Magic 8 Ball. The following program produces a Window on the screen and sets various attributes
+
+#!/usr/bin/env python
+import Tkinter # note use of caps
+from Tkinter import *
+
+window = Tk()
+window.title('GUI Tkinter 1')
+window.geometry("300x250") # w x h
+window.resizable(0,0)
+
+window.mainloop()
+
+[tkinter1]
+
+If we break this down we get : 
+
+#!/usr/bin/env python	This tells the interpreter to use python
+"import Tkinter 
+from Tkinter import *"	This imports the Tkinter module we need
+window = Tk()  - 	Create window object
+window.title('GUI Tkinter 1')	Define the Window title
+window.geometry("300x250") # w x h	Set window size width x height
+window.resizable(0,0)	Define if we can resize the window or not
+window.mainloop()	This displays the window, prevents the program from immediately exiting and enables us to interact with it through the GUI
+
+Using Tkinter's grid
+We are now going to add a label to the window we have created. To do this we need to load the code we produced before up and add an extra two lines of code. The new code should be immediately added BEFORE the window.mainloop().
+
+#define labels
+box1 = Label(window, text="Entry 1: ")
+
+#place the label within the window object
+box1.grid(row = 1	, column = 1, padx = 5, pady = 5)
+
+We are using the Grid method to place the label on the screen. Tkinter supports an invisible, customisable, grid upon which screen elements can be placed. Each element can be one or more rows wide and one or more columns tall.
+
+Getting the position right is harder. Once you start adding more object it gets a little easier. 
+
+Adding a button
+Now that we are able to add objects to the window we can add more interactive components such as buttons.
+
+1.	Delete the above two lines of code that we added to place the label on the window
+2.	Add the following code immediately above window.mainloop()
+
+def btn1():
+   print ("button pressed")
+	
+btn_tog2 = Button( window, text ='button1', command=btn1)
+btn_exit = Button( window, text ='exit',command=exit)	
+
+btn_tog2.grid(row = 1, column = 1, padx = 5, pady = 5)
+btn_exit.grid(row = 2, column = 1, padx = 5, pady = 5)
+
+First we define a function that can be called (for the moment, ours will just print out some text to the terminal). Note that the lines contained within the function must be indented. Next we create two buttons: the first names the function which will be called when clicked (btn1), while the second calls exit to close the program. exit is a function built in to Python and will appear in a different colour in most editors (including nano and Idle). Lastly, we position both interface elements onto the grid, one to a row, both in the first column. We apply a bit of spacing (using padx and pady) to ensure that the buttons do not touch (this is good practice in user interface design to reduce the chance of the user accidentally clicking the wrong button).
+
+Most importantly: you MUST define a function BEFORE you call it from else where in the program.
+
+[tkinter3]
+
+Improving usability
+Now that we are able to add a label and a button to a window,  we can start to make our application more user friendly. While buttons have in-built labels the purpose of this lesson  will simply be about adding both (for example: for those times when you want to use an image for a button and have descriptive text next to the image). The buton has text with a description of what the button does. 
+
+#define functions for button(s)
+def btn1():
+   print ("button pressed")
+	
+#create button objects
+btn_tog2 = Button( window, text ='button1', command=btn1)
+btn_exit = Button( window, text ='exit',command=exit)	
+
+#place button objects
+btn_tog2.grid(row = 1, column = 2, padx = 5, pady = 5)
+btn_exit.grid(row = 2, column = 2, padx = 5, pady = 5)
+
+#define labels
+button1 = Label(window, text="press button")
+button2 = Label(window, text="exit program")
+
+#place labels
+button1.grid(row = 1, column = 1, padx = 5, pady = 5)
+button2.grid(row = 2, column = 1, padx = 5, pady = 5)
+
+I have placed the objects explicitally on the window: column 1 has labels, while column 2 has buttons. I have also tried to name the objects logically in the code to make debugging easier. We are also commenting as we go to explain what the code does.
+
+Creating the Magic 8 Ball
+
+Now that we can add objects we can add other things too. 
+
+What we will do first however is create a program that takes text input and then generates a random response,  e.g question and answer program. This program was created by Tom Brough.
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+#!/usr/bin/env python
+
+import random
+
+RESPONSES = ["It is certain",
+             "It is decidedly so",
+             "Without a doubt",
+             "Yes definitely",
+             "You may rely on it",
+             "As I see it yes",
+             "Most likely",
+             "Outlook good",
+             "Yes",
+             "Signs point to yes",
+             "Reply hazy try again",
+             "Ask again later",
+             "Better not tell you now",
+             "Cannot predict now",
+             "Concentrate and ask again",
+             "Don't count on it",
+             "My reply is no",
+             "My sources say no",
+             "Outlook not so good",
+             "Very doubtful"] 
+
+
+while(True):
+    raw_input("Enter your question: ")
+    print random.choice(RESPONSES)
+
+
+HOW_TO_7			MAGIC 8 part 2
+
+The above program takes input in the form of raw input and then generates a random response. 
+
+Rather than create a lesson that simply teaches you how to create a text input box this lesson will do this but also build on what we have already covered. 
+
+Staying with the above program, we need to do several things
+
+1. Create the elements we need to create a window on the screen
+2. Crate the objects we need
+	Text boxes (one for input text and one for output text)
+	lable
+	Buttons
+3. Place these on the screen
+4. Tidy things up a little
+
+
+HOW_TO_8			MAGIC 8 part 3 writing the code.
+
+
+
+
+
+
+
+
+
+Lets look at the program in more detail
+
+import random
+import Tkinter # note use of caps
+from Tkinter import *  
+
+The main difference here is the addition of the ramdom module otherwise we are importing Tkinter as before
+
+#set up
+window = Tk()
+window.title('Magic 8')
+window.geometry("300x100") #wxh
+window.resizable(0,0)
+
+
+As before we define the window,   you will notice I have made the window size 300 x 100. This makes the window a nice size around the program buttons and text entry / output boxes
+
+We now define the responses we want and store these in an array called RESPONSES
+
+RESPONSES = ["It is certain",
+             "It is decidedly so",
+             "Without a doubt",
+             "Yes definitely",
+             "You may rely on it",
+             "As I see it yes",
+             "Most likely",
+             "Outlook good",
+             "Yes",
+             "Signs point to yes",
+             "Reply hazy try again",
+             "Ask again later",
+             "Better not tell you now",
+             "Cannot predict now",
+             "Concentrate and ask again",
+             "Don't count on it",
+             "My reply is no",
+             "My sources say no",
+             "Outlook not so good",
+             "Very doubtful"] 
+
+
+As Discussed earlier functions get defined first so we now define a function that calls up a random response from the array.
+
+def response():
+	x = random.choice(RESPONSES)
+	#print x
+	circletext2.delete(0, END) # clear prev output
+	circletext2.insert(0,str(x))           
+
+Note a few things here
+
+x is a variable that now stores the responses
+note I have commented out with a # print x, (this was used to test and left in so it can be used later)  uncomment while testing your programs
+
+The next line simply clears the out put text box (keeps program tidy) you don't need it but it keeps things in good order
+The next line does all the work,  and inserts the response variable x as a string (str) 
+
+Once this is done we can start with the actual gui design. 
+
+#define labels - cannot share same name as function
+box1 = Label(window, text="Question: ")
+box2 = Label(window, text="Answer: ")       
+
+#place labels
+box1.grid(row = 1, column = 1, padx = 5, pady = 5)
+box2.grid(row = 2, column = 1, padx = 5, pady = 5)
+
+#define entry box 
+
+circleVar = StringVar()
+circletext = Entry(window, textvariable=circleVar)
+
+#define out box 
+
+circleVar2 = StringVar()
+circletext2 = Entry(window, textvariable=circleVar2)
+
+
+#display boxes
+circletext.grid(row = 1, column = 2,)
+circletext2.grid(row = 2, column = 2,)
+
+#define buttons
+
+response = Button( window, text ='respomse', command=response)
+exitbtn = Button( window, text ='Exit', command=exit)
+
+#place buttons
+
+response.grid(row = 4, column = 1, padx = 1, pady = 1)
+exitbtn.grid(row = 4, column = 2, padx = 1, pady = 1)
+
+#display window
+
+window.mainloop()
+
+
+
+
+HOW TO 9				IMPROVING MAGIC 8
+
+
+Now we have the basic program working, we can look in to making a few enhancements. The main flaw with the above is
+
+If you don't type anything you get a respose
+If you simply type a string of numbers you get a response.grid
+
+Which clearly isn't very helpful. 
+
+The following program, tests an input contains letters. 
+
+letter = raw_input("Enter your name ")
+i = letter.isalpha()
+while i != True:
+	print("Input MUST use letters")
+	letter = raw_input("Name ")
+	i = letter.isalpha()
+print letter
+
+This can't be JUST integratred as it,  lets look at the code in our magic 8 program we need to integrate this with. 
+
+def response():
+	x = random.choice(RESPONSES)
+	#print x
+	circletext2.delete(0, END) # clear prev output
+	circletext2.insert(0,str(x))       
+
+
+To start off  have added the code to check if what you have put in is actually text. However using the function isalpha() doesn't work here as it seems to detect the spaces in your question and throws up an error.
+
+So to get round this I did something slightly different
+
+
+def response():
+		
+	msg = "error : must be a text value"
+
+	i = circletext.get()
+	y = i.isdigit()
+	if y == True:
+		circletext.insert(0,(msg))
+		
+	else:	
+		x = random.choice(RESPONSES)
+		circletext2.delete(0, END) # clear prev output
+		circletext2.insert(0,str(x)) # insert response
+
+
+What I have done here is detect if the text in the text box is numeric,  if it is then clearly it is not a question as such and it then gives an error.
+
+This still leaves the issue of if the text input box has nothing in it then it will still give a response.
+
+To do this 
+
+def response():
+		
+	msg = "error : must be a text value"
+
+	i = circletext.get()
+	y = i.isdigit()
+	l = len(circletext.get())
+	print l
+	if y == True or l == 0:
+		circletext.insert(0,(msg))
+
+So bascially what we are saying here is that if y is a number or y is equal to zero length then insert the string stored in msg to the text box. 
+
+
+
+
+
+
+To clear up further we can add a new button to clear both the input and output boxes
+
+We can start by creating a new function for this
+
+def clear():
+	circletext.delete(0, END) # clear input box
+	circletext2.delete(0, END) # clear output box
+
+then add a new button
+
+clear = Button( window, text ='Clear', command=clear)
+
+and place it on the canvas
+
+clear.grid(row = 4, column = 2, padx = 1, pady = 1)
+
+As I have put this in column 2 then I have moved the exit button to column 3
+
+exitbtn.grid(row = 4, column = 3, padx = 1, pady = 1)
+
+Other than that, we should have 3 buttons. 
+
+However if you run it then the buttons seem to be right on the edge so I have changed 
+
+window.geometry("300x100") #wxh
+window.geometry("310x100") #wxh
+
+to add that little but more width
+
+
+
+
+
+
+
+
+I have also corrected a typo, so it now says response. 
