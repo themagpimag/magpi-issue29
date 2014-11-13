@@ -147,7 +147,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.294821714848" YPOS="307.857913385827" WIDTH="236.417952755906" HEIGHT="16.7244094488189" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1.04567289830735" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="15" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 236.418 0 236.418 0 236.418 0 236.418 0 236.418 16.7244 236.418 16.7244 236.418 16.7244 236.418 16.7244 0 16.7244 0 16.7244 0 16.7244 0 16.7244 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 236.418 0 236.418 0 236.418 0 236.418 0 236.418 16.7244 236.418 16.7244 236.418 16.7244 236.418 16.7244 0 16.7244 0 16.7244 0 16.7244 0 16.7244 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="12.4007818281801" gYpos="9.48980314960596" gWidth="289.12478516815" gHeight="35.704" ALIGN="1" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FCOLOR="White" CH="SKILL LEVEL : BASIC"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FCOLOR="White" CH="SKILL LEVEL : BEGINNER"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -211,6 +211,7 @@
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="With that done we can create the start of our Magic 8 Ball. The following program produces a Window on the screen and sets various attributes"/>
+            <ITEXT CH=":"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11" CH=" #!/usr/bin/env python"/>
@@ -269,16 +270,9 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Adding a button"/>
             <para PARENT="Body title"/>
-            <ITEXT FONTSIZE="12" CH="Now that we are able to add objects to the window we can add more interactive components such as buttons."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="1."/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="Delete the above two lines of code that we added to place the label on the window"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="2."/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="Add the following code immediately above window.mainloop()"/>
+            <ITEXT FONTSIZE="12" CH="Now that we are able to add objects to the window we can add more interactive components such as buttons. Replace the lines that we entered, above, with the following above "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="window.mainloop()"/>
+            <ITEXT CH=":"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11" CH="def btn1():"/>
@@ -301,14 +295,14 @@
             <ITEXT FONTSIZE="12" CH="First we define a function that can be called (for the moment, ours will just print out some text to the terminal). Note that the lines contained within the function must be indented. Next we create two buttons: the first names the function which will be called when clicked (btn1), while the second calls exit to close the program. exit is a function built in to Python and will appear in a different colour in most editors (including nano and Idle). Lastly, we position both interface elements onto the grid, one to a row, both in the first column. We apply a bit of spacing (using padx and pady) to ensure that the buttons do not touch (this is good practice in user interface design to reduce the chance of the user accidentally clicking the wrong button)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Most importantly, you MUST define a function BEFORE you call it from else where in the program."/>
+            <ITEXT FONTSIZE="12" CH="Most importantly, functions must be defined before you call themfrom within your program."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="[tkinter3]"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Improving usability"/>
             <para PARENT="Body title"/>
-            <ITEXT FONTSIZE="12" CH="Now that we are able to add a label and a button to a window,  we can start to make our application more user friendly. While buttons have in-built labels the purpose of this lesson  will simply be about adding both (for example: for those times when you want to use an image for a button and have descriptive text next to the image). The buton has text with a description of what the button does. "/>
+            <ITEXT FONTSIZE="12" CH="Now that we are able to add a label and a button to a window,  we can start to make our application more user friendly. While buttons have in-built labels the purpose of this lesson  will simply be about adding both (for example: for those times when you want to use an image for a button and have descriptive text next to the image). The button has adjacent text with a description of what the button does. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11" CH="#define functions for button(s)"/>
@@ -348,7 +342,9 @@
             <ITEXT FONTSIZE="11" CH="button2.grid(row = 2, column = 1, padx = 5, pady = 5)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="I have placed the objects explicitally on the window: column 1 has labels, while column 2 has buttons. I have also tried to name the objects logically in the code to make debugging easier. We are also commenting as we go to explain what the code does."/>
+            <ITEXT FONTSIZE="12" CH="I have placed the objects explicitally on the window: column 1 has labels, while column 2 has buttons. I have also tried to name the objects logically in the code to make debugging easier. We are also commenting ("/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="# comment"/>
+            <ITEXT FONTSIZE="12" CH=") as we go to explain what the code does."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Creating the Magic 8 Ball"/>
@@ -356,216 +352,158 @@
             <ITEXT FONTSIZE="12" CH="Now that we can add objects we can add other things too. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="What we will do first however is create a program that takes text input and then generates a random response,  e.g question and answer program. This program was created by Tom Brough."/>
+            <ITEXT FONTSIZE="12" CH="We need to modify our program to add three things: a text box for the user to enter their question, an area to show the response, and the logicial code to generate that response.separate program that takes text input and then generates a random response. This gives us the components of a question and answer program. The response part of the program was created by Tom Brough."/>
+            <ITEXT CH=" The full listing is:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#!/usr/bin/env python"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="# -*- coding: utf-8 -*-"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="#!/usr/bin/env python"/>
+            <ITEXT FONTSIZE="11" CH=" #!/usr/bin/env python"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="import random"/>
+            <ITEXT FONTSIZE="11" CH=" import random"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" from Tkinter import *  "/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="RESPONSES = [&quot;It is certain&quot;,"/>
+            <ITEXT FONTSIZE="11" CH=" def response():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;It is decidedly so&quot;,"/>
+            <ITEXT FONTSIZE="11" CH="    response_phrase = random.choice(RESPONSES)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Without a doubt&quot;,"/>
+            <ITEXT FONTSIZE="11" CH="    #print x"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Yes definitely&quot;,"/>
+            <ITEXT FONTSIZE="11" CH="    circletext2.delete(0, END) # clear prev output"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;You may rely on it&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;As I see it yes&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Most likely&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Outlook good&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Yes&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Signs point to yes&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Reply hazy try again&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Ask again later&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Better not tell you now&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Cannot predict now&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Concentrate and ask again&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Don't count on it&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;My reply is no&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;My sources say no&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Outlook not so good&quot;,"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="   &quot;Very doubtful&quot;]"/>
+            <ITEXT FONTSIZE="11" CH="    circletext2.insert(0,str(response_phrase))   "/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="while(True):"/>
+            <ITEXT FONTSIZE="11" CH=" #set up"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="    raw_input(&quot;Enter your question: &quot;)"/>
+            <ITEXT FONTSIZE="11" CH=" window = Tk()"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="    print random.choice(RESPONSES)"/>
+            <ITEXT FONTSIZE="11" CH=" window.title('Magic 8')"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" window.geometry(&quot;300x100&quot;) #wxh"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" window.resizable(0,0)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" RESPONSES = [&quot;It is certain&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;It is decidedly so&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Without a doubt&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Yes definitely&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;You may rely on it&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;As I see it yes&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Most likely&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Outlook good&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Yes&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Signs point to yes&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Reply hazy try again&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Ask again later&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Better not tell you now&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Cannot predict now&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Concentrate and ask again&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Don't count on it&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;My reply is no&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;My sources say no&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Outlook not so good&quot;,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH="    &quot;Very doubtful&quot;]"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" #define labels - cannot share same name as function"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" box1 = Label(window, text=&quot;Question: &quot;)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" box2 = Label(window, text=&quot;Answer: &quot;)       "/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" #place labels"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" box1.grid(row = 1, column = 1, padx = 5, pady = 5)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" box2.grid(row = 2, column = 1, padx = 5, pady = 5)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" #define entry box "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" circleVar = StringVar()"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" circletext = Entry(window, textvariable=circleVar)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" #define output box "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" circleVar2 = StringVar()"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" circletext2 = Entry(window, textvariable=circleVar2)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" #display boxes"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" circletext.grid(row = 1, column = 2,)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" circletext2.grid(row = 2, column = 2,)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" #define buttons"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" response = Button( window, text ='respomse', command=response)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" exitbtn = Button( window, text ='Exit', command=exit)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" #place buttons"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" response.grid(row = 4, column = 1, padx = 1, pady = 1)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" exitbtn.grid(row = 4, column = 2, padx = 1, pady = 1)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" #display window"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="11" CH=" window.mainloop()"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="Let's look at the program in more detail. Firstly, we import the Python random module. This lets us hand over the task of selecting which response to show over to the program and means that we are unlikely to see the same response twice."/>
+            <ITEXT CH=" We then define a function that calls up the random response from an array of values, known as a list in Python. "/>
+            <ITEXT FONTSIZE="12" CH="In our function, "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="response_phrase"/>
+            <ITEXT FONTSIZE="12" CH=" is a variable that stores a single randomly selected response"/>
+            <ITEXT CH=". "/>
+            <ITEXT FONTSIZE="12" CH="I have commented out the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="print"/>
+            <ITEXT FONTSIZE="12" CH=" line as this was used for testing, however you may wish to uncomment it while testing your programs"/>
+            <ITEXT CH=". In the final version of any program it is recommended to remove debug lines of code such as this so that they do not get accidentally uncommented later, resulting in unexpected behaviour."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="HOW_TO_7"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="MAGIC 8 part 2"/>
             <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="We now go on to define the window as before, but you will notice I have made the window size 300 x 100. This makes the window a beter fit around the program buttons and text entry / output boxes"/>
+            <ITEXT CH="."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="The above program takes input in the form of raw input and then generates a random response. "/>
             <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="We now type the responses we want and store these in a list called "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="RESPONSES"/>
+            <ITEXT CH=". You will note that we do not define the list inside the function call. If we did, then the list would be recreated each time the function is called, which would slow (albeit , in this case by not much) the program."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Rather than create a lesson that simply teaches you how to create a text input box this lesson will do this but also build on what we have already covered. "/>
+            <ITEXT FONTSIZE="12" CH="      "/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Staying with the above program, we need to do several things"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="1. Create the elements we need to create a window on the screen"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="2. Crate the objects we need"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="Text boxes (one for input text and one for output text)"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="lable"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="Buttons"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="3. Place these on the screen"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="4. Tidy things up a little"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="HOW_TO_8"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="MAGIC 8 part 3 writing the code."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Lets look at the program in more detail"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="import random"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="import Tkinter # note use of caps"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="from Tkinter import *  "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="The main difference here is the addition of the ramdom module otherwise we are importing Tkinter as before"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#set up"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="window = Tk()"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="window.title('Magic 8')"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="window.geometry(&quot;300x100&quot;) #wxh"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="window.resizable(0,0)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="As before we define the window,   you will notice I have made the window size 300 x 100. This makes the window a nice size around the program buttons and text entry / output boxes"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="We now define the responses we want and store these in an array called RESPONSES"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="RESPONSES = [&quot;It is certain&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;It is decidedly so&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Without a doubt&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Yes definitely&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;You may rely on it&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;As I see it yes&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Most likely&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Outlook good&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Yes&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Signs point to yes&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Reply hazy try again&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Ask again later&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Better not tell you now&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Cannot predict now&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Concentrate and ask again&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Don't count on it&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;My reply is no&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;My sources say no&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Outlook not so good&quot;,"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="             &quot;Very doubtful&quot;] "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="As Discussed earlier functions get defined first so we now define a function that calls up a random response from the array."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="def response():"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="x = random.choice(RESPONSES)"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="#print x"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="circletext2.delete(0, END) # clear prev output"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="circletext2.insert(0,str(x))           "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Note a few things here"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="x is a variable that now stores the responses"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="note I have commented out with a # print x, (this was used to test and left in so it can be used later)  uncomment while testing your programs"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="The next line simply clears the out put text box (keeps program tidy) you don't need it but it keeps things in good order"/>
@@ -576,78 +514,8 @@
             <ITEXT FONTSIZE="12" CH="Once this is done we can start with the actual gui design. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#define labels - cannot share same name as function"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="box1 = Label(window, text=&quot;Question: &quot;)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="box2 = Label(window, text=&quot;Answer: &quot;)       "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#place labels"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="box1.grid(row = 1, column = 1, padx = 5, pady = 5)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="box2.grid(row = 2, column = 1, padx = 5, pady = 5)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#define entry box "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="circleVar = StringVar()"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="circletext = Entry(window, textvariable=circleVar)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#define out box "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="circleVar2 = StringVar()"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="circletext2 = Entry(window, textvariable=circleVar2)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#display boxes"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="circletext.grid(row = 1, column = 2,)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="circletext2.grid(row = 2, column = 2,)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#define buttons"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="response = Button( window, text ='respomse', command=response)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="exitbtn = Button( window, text ='Exit', command=exit)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#place buttons"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="response.grid(row = 4, column = 1, padx = 1, pady = 1)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="exitbtn.grid(row = 4, column = 2, padx = 1, pady = 1)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="#display window"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="window.mainloop()"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="HOW TO 9"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="IMPROVING MAGIC 8"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="Improving Magic 8 Ball"/>
+            <para PARENT="Body title"/>
             <ITEXT FONTSIZE="12" CH="Now we have the basic program working, we can look in to making a few enhancements. The main flaw with the above is"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
