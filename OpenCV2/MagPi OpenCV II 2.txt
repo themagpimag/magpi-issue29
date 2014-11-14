@@ -1,0 +1,85 @@
+
+Computer Vision on the Raspberry Pi: Part II
+Last time, we saw how PiTeR the terrestrial robot can identify symbols he sees in his environment, even when the symbols are at an angle to the ideal symbol being used as comparison, as might happen if the robot arrived at the symbol slightly off-axis from it.
+
+This article doesn’t cover any new uses of OpenCV, but instead shows how what we got working last time is integrated into PiTeRs control programs to allow him to navigate autonomously using the information provided by the OpenCV algorithms.
+
+Take me for a drive
+We want to enhance our example to distinguish between the different symbols and act on them. PiTeR needs to turn and drive based on what he is seeing. Because the actions and control logic are are different, we’ll deal with turning and driving separately.
+
+PiTeR balances on two wheels. How he does this will be covered in a later article, but you can find out more now on his website. He drives forward or backward when both wheels turn in the same direction and at the same speed. When the wheels rotate at different speeds, he turns. If he is standing still and the wheels rotate in opposite directions, PiTeR turns on his own axis.
+
+So now let’s think about what we want to get PiTeR to do. We want him to look in his visual field for a symbol of a particular colour. What we want to do next depends on how far away from the symbol he is. If he is far from the symbol, we want him to drive towards it. If he is close we want him to recognise the symbol and act on it.
+
+You may recall from the last article that the symbols mean ‘turn left’, ‘turn right’, ‘not this way’ and ‘home’. It’s clear what we want to do for the ‘turn’ symbols, but what about ‘home’ and ‘not this way’? In the case of ‘not this way’, we want him to turn around and go back the way he came. In the case of ‘home’, he is at the end of the trail and has reached his goal, so let’s make him do a little victory dance.
+
+So first of all, we need to decide if we are near or far from the symbol. This is easy to do, from last time, you will recall that we get a rectangle locating the symbol patch in PiTeRs visual field. All we need to do is to compute the area of the rectangle. If it is less than a certain size we will drive, if it is more, we will stand still and figure out which symbol it is. While we are driving, we will look at the position of the patch in the cameras field of view. We will input small turn commands so that the symbol is kept as close to the centre of our view as possible. In this way, PiTeR will correct himself as he drives, always moving towards the symbol.
+
+<Diagram -1>
+
+Once we are close enough, we will use the ‘good match’ features OpenCV found for us as we discussed last time. The symbol with the greatest number of good matches will be the one we act on.
+
+Thread bare
+Before we go off and start work on this, there are a couple more things to think about. Once we start driving around, we can’t go off into a loop and forget about everything else. PiTeR constantly exchanges information with the person controlling him; for example, they might decide to intervene while he is doing his automated actions. If he starts to ignore his human, he’ll be branded a rogue robot!
+
+He also needs to exchange information with his wheel control system in order to drive and equally important, to know how far he has gone and slow down when necessary. 
+
+To support these needs, PiTeR needs to execute his long running algorithms, like symbol and colour patch detection independently of the control loop. Only when the image processing is complete do we look at the results in the main drive loop. This keeps PiTeR nice and responsive to human control.
+One of the things that is so great about a longer term project like a robot is that you never know where it is going to take you. To allow PiTeR to continue controlling things and do vision processing, we need to learn about Python threads. To create a new thread, we create a Python class which specialises the Thread class of the threading package:
+
+class SymbolFinder(threading.Thread):
+
+To use threading, we need to define two additional methods:
+
+def __init__(self):
+    super(SymbolFinder, self).__init__()
+    # rest of our initialisation here
+and
+
+def run(self):
+    # loop repeating our colour patch search python code here
+
+The __init__ method is special. It is called a constructor. When you create an instance of SymbolFinder, the __init__ method gets called for you automatically. To use threading, we must call the Thread constructor in our own constructor with the super command.
+
+Now, before entering the main loop, we create an instance of SymbolFinder and call the start method, like this:
+
+symFinder = symbolFinder.SymbolFinder()
+symFinder.start()
+
+The start method is inherited from the Thread class. It returns almost immediately, but by the time it does, whatever we put in the run loop will be running independently on its own operating system thread. Cool, we’re now doing two things at once (albeit a little more slowly than if we were doing them alone).
+
+PiTeR also uses the same technique for scheduling actions like speech, LED illumination and autonomous driving. By using separate threads, PiTeR appears to be able to do several things at once, which is what we would expect of a good robot.
+
+Which symbol did we find?
+The next thing we need to enhance a little bit is symbol recognition. Our previous script read just one example symbol and looked for a match with it. We now need to recognise four different symbols, so we’ll need to adjust the script to read all four symbols and compute the key image features for each one. As before, we’ll do this at start up time because it only needs to be done once for each reference image.
+
+We’ll also need to adjust our matching algorithm to loop over the four sample symbols and compute the good matches for each one. So the script will look like this:
+
+# Repeat
+#   Find a patch
+#   If the patch is too small:
+#     drive towards it.
+#     if the patch is not in the centre, turn while driving to bring it more towards the centre
+#   else:
+#     crop the image to the size of the patch (actually we’ll crop a bit bigger than this)
+#     loop for each symbol
+#        compute the good matches for the symbol
+#        remember the symbol with the most good matches
+#     if the matched symbol is a turn command
+#       turn left or right 90 degrees
+#     else if the matched symbol is ‘not this way’
+#       turn through 180 degrees
+#     else if the matched symbol is ‘home’
+#       do a dance and exit the outer loop
+
+<Diagram - 2>
+
+In all cases except the ‘home’ case, PiTeR will find the next patch in the trail. It will be further away, so he will drive to it and the whole outer loop will be repeated until he reaches the ‘home’ symbol. Yay, PiTeR can do cub scout trail tracking!
+
+More computer vision tricks
+Following symbols is not the only thing PiTeR can do. OpenCV also has facilities for detecting and recognising faces. To do this we use an OpenCV CascadeClassifier. This can be programmed to look for the classic shape of a human face. This is the same method that modern cameras use to choose where to focus. If one is found in the field of view, we command PiTeRs head servos to try to centre the face in the field of view. This gives him the ability to follow you as you move around.
+
+If more than one face is found, we choose a face at random and centre that. This gives the uncanny impression that PiTeR is looking at the different people in a crowd (and in a way, I suppose he is).
+
+We can take this one step further and have him say hello to individual people he recognises. To do this, we train him with still photos of the people we want him to say hello to. We’ll discuss face recognition in the next article.
+
