@@ -368,7 +368,8 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="11" CH="    response_phrase = random.choice(RESPONSES)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH="    #print x"/>
+            <ITEXT FONTSIZE="11" CH="    #print "/>
+            <ITEXT CH="response__phrase"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="11" CH="    circletext2.delete(0, END) # clear prev output"/>
             <para PARENT="Code"/>
@@ -465,7 +466,7 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="11" CH=" #define buttons"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="11" CH=" response = Button( window, text ='respomse', command=response)"/>
+            <ITEXT FONTSIZE="11" CH=" response = Button( window, text ='response', command=response)"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="11" CH=" exitbtn = Button( window, text ='Exit', command=exit)"/>
             <para PARENT="Code"/>
@@ -498,16 +499,15 @@
             <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="We now type the responses we want and store these in a list called "/>
+            <ITEXT FONTSIZE="12" CH="We type in the responses we want and store these in a list called "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="RESPONSES"/>
-            <ITEXT CH=". You will note that we do not define the list inside the function call. If we did, then the list would be recreated each time the function is called, which would slow (albeit , in this case by not much) the program."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="      "/>
+            <ITEXT CH=". You will note that we do not define the list inside the function call. If we did, then the list would be recreated each time the function is called, which would slow (albeit, in this case by not much) the program."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="The next line simply clears the out put text box (keeps program tidy) you don't need it but it keeps things in good order"/>
-            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="The line "/>
+            <ITEXT FONTSIZE="11" CH="circletext2.delete(0, END)"/>
+            <ITEXT FONTSIZE="12" CH="  clears the output text box (from the first character, (keeps program tidy) you don't need it but it keeps things in good order"/>
+            <para PARENT="Code"/>
             <ITEXT FONTSIZE="12" CH="The next line does all the work,  and inserts the response variable x as a string (str) "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -516,151 +516,51 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Improving Magic 8 Ball"/>
             <para PARENT="Body title"/>
-            <ITEXT FONTSIZE="12" CH="Now we have the basic program working, we can look in to making a few enhancements. The main flaw with the above is"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="If you don't type anything you get a respose"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="If you simply type a string of numbers you get a response.grid"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="Which clearly isn't very helpful. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="The following program, tests an input contains letters. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="letter = raw_input(&quot;Enter your name &quot;)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="i = letter.isalpha()"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="while i != True:"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="print(&quot;Input MUST use letters&quot;)"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="letter = raw_input(&quot;Name &quot;)"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="i = letter.isalpha()"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="print letter"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="This can't be JUST integratred as it,  lets look at the code in our magic 8 program we need to integrate this with. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="def response():"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="x = random.choice(RESPONSES)"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="#print x"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="circletext2.delete(0, END) # clear prev output"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="circletext2.insert(0,str(x))       "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="To start off  have added the code to check if what you have put in is actually text. However using the function isalpha() doesn't work here as it seems to detect the spaces in your question and throws up an error."/>
+            <ITEXT FONTSIZE="12" CH="Now we have the basic program working, we can look in to making a few enhancements. At present if you do not type type in anything or you type in a sequence of numbers you still get a response"/>
+            <ITEXT CH=", which clearly isn't very helpful."/>
+            <ITEXT FONTSIZE="12" CH=" We can modify the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="responsese()"/>
+            <ITEXT FONTSIZE="12" CH=" function in our program to take account of this"/>
+            <ITEXT CH=". I"/>
+            <ITEXT FONTSIZE="12" CH=" have added code to check if what the user enters is actually text. However using the function isalpha() doesn't work here as it seems to detect the spaces in your question and throws up an error."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="So to get round this I did something slightly different"/>
+            <ITEXT CH=":"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH=" def response():"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="def response():"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="    msg = &quot;error : must be a text value&quot;"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="    i = circletext.get()"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="msg = &quot;error : must be a text value&quot;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="    y = i.isdigit()"/>
             <para PARENT="Body text"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="    q_length = len(i.get())"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="i = circletext.get()"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="    print l"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="y = i.isdigit()"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="    if y == True or q_length == 0:"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="if y == True:"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="       circletext.insert(0,(msg))"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="circletext.insert(0,(msg))"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="    else:"/>
+            <tab FONT="Monaco Regular" FONTSIZE="11"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="       response_phrase = random.choice(RESPONSES)"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="else:"/>
-            <tab FONTSIZE="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="       circletext2.delete(0, END) # clear prev output"/>
             <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="x = random.choice(RESPONSES)"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="circletext2.delete(0, END) # clear prev output"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="circletext2.insert(0,str(x)) # insert response"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="       circletext2.insert(0,str(response_phrase)) # insert response"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="What I have done here is detect if the text in the text box is numeric,  if it is then clearly it is not a question as such and it then gives an error."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="This still leaves the issue of if the text input box has nothing in it then it will still give a response."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="To do this "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="def response():"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="msg = &quot;error : must be a text value&quot;"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="i = circletext.get()"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="y = i.isdigit()"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="l = len(circletext.get())"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="print l"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="if y == True or l == 0:"/>
-            <para PARENT="Body text"/>
-            <tab FONTSIZE="12"/>
-            <tab FONTSIZE="12"/>
-            <ITEXT FONTSIZE="12" CH="circletext.insert(0,(msg))"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="So bascially what we are saying here is that if y is a number or y is equal to zero length then insert the string stored in msg to the text box. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="What I have done here is detect if the text in the text box is numeric with "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="i.isdigit()"/>
+            <ITEXT FONTSIZE="12" CH=" and if it is zero characters in length with "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="len(i.get())"/>
+            <ITEXT FONTSIZE="12" CH=". If either is true then we display an error: the text entered (or not) is clearly not a question"/>
+            <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="To clear up further we can add a new button to clear both the input and output boxes"/>
