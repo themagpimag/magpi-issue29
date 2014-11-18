@@ -5,13 +5,16 @@ network and USB interfaces replaced with a single USB socket. The model A+
 mirrors the model B+ (launched on July 14th) with the same modifications, but 
 also with a shorter printed circuit board. The model B+ is 85mm long, the model 
 A+ is only 65mm long. The model A+ has also been on a diet and drops from 41g 
-to 23g in weight.
+to 23g in weight. The processor is the standard Broadcom BCM2835 SoC used on 
+all of the Raspberry Pi products but the A+, like the A, only has 256MB of RAM.
 
-So we now have a computer which is smaller than a credit card.
+So we now have a powerful computer which is 20mm smaller than a credit card that
+has a retail price of $20 plus taxes & shipping. That's a $5 reduction on the 
+list price of the model A.
 
-The first thing that strikes you is that the mounting holes (which looked a bit 
-odd on the B+) are now in each corner of the A+. The GPIO pins are in the same 
-place and we've got the full 40-pin header. The left hand 26-pins are "plug 
+The first things that strikes you are the mounting holes (which looked a bit 
+odd on the B+) have now moved to each corner of the A+. The GPIO pins are in the 
+same place and we've got the full 40-pin header. The left hand 26-pins are "plug 
 compatible" with the original model A & B. More on that later when I try all of 
 my model B peripherals on my model A+.
 
@@ -81,4 +84,29 @@ the old model A. That means the folks who want to launch their Raspberry Pi to
 flat. It also means I can run my Raspberry Pi A+ powered by the mains for a 
 whole year for less than one pound.
 
+The first peripheral I tested was a Fish Dish (see the article in MagPi Issue 
+#25 page 12) that simply fits the GPIO pins with the board overhanging the 
+new pins on the A+. It gives us a piezo beeper, a switch and three LEDs 
+connected to pins 8, 7, 4, 9 & 22 respectively. There's no problem getting a 
+simple GPIO board like that working with the A+.
 
+Next test was with my ModMyPi 8X8 matrix. That fits OK, although the board is
+a bit wobbly because it normally rests on the current smoothing capacitor on
+a model B and that component is gone on the A+, but it's not something we can't
+find a quick fix for.
+
+I then tested my PiFaceCAD. This one is too long for the A+, so the end of the 
+PiFace board hangs over the USB plug (for my 4-port hub). There were the python
+PiFace packages to install (sudo apt-get install python{,3}-piface*). Once those
+extra software packages were installed it worked with no problems. Again the 
+board is a bit wobbly because it's designed to rest on the ethernet, video and 
+audio connectors on a model B. 
+
+Following on from my Arduberry article in issue #28 it made sense to test that
+peripheral
+
+The final test was with my Quick2Wire GPIO expander board. It uses a ribbon cable
+to connect the GPIO pins on my model B to the expansion board. That connector 
+would not fit the 40pin header on the A+ so I'll have to build a new cable with a 
+40pin connector on one end and a 26pin on the other. For a quick test I rigged it
+up with a collection of female to female dupont wires.
