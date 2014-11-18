@@ -12,30 +12,32 @@ So we now have a powerful computer which is 20mm smaller than a credit card that
 has a retail price of $20 plus taxes & shipping. That's a $5 reduction on the 
 list price of the model A.
 
-The first things that strikes you are the mounting holes (which looked a bit 
-odd on the B+) have now moved to each corner of the A+. The GPIO pins are in the 
-same place and we've got the full 40-pin header. The left hand 26-pins are "plug 
-compatible" with the original model A & B. More on that later when I try all of 
-my model B peripherals on my model A+.
+The first thing that strikes you are the mounting holes (which looked a bit 
+odd on the B+); they have now moved to each corner of the A+. The GPIO pins are 
+in the same place and we've got the full 40-pin header. The left hand 26-pins
+are "plug compatible" with the original model A & B. More on that later when I 
+try all of my model B peripherals on my model A+.
 
 Looking at the top of the board apart from the GPIO pins & USB there are five 
 other connectors. Working from left to right they are the DSI (display 
 interface), micro USB socket (purely for power), HDMI, CSI (camera interface) 
 and the combined 3.5mm audio and analogue video socket. The microUSB socket 
 moved round the corner. The 3.5mm socket moved from the top of the board to the 
-bottom right. The other three are in roughly the same place as before. 
+bottom right. The other three are in roughly the same place as before. The 
+yellow AV and blue/black audio are now combined in a single socket.
 
 With the model B+ there has been lots of trouble for folks who can't use HDMI 
-and choose analogue audio and video. Matt Hawkins has an excellent web 
-page/blog entry at 
-http://www.raspberrypi-spy.co.uk/2014/07/raspberry-pi-model-b-3-5mm-audiovideo-j
-ack/ which clears up the confusion. That same info works with the model A+.
+and choose analogue audio and video but can't get a video signal to work. There 
+is no standard for the connections for a four pole 3.5mm jack.  Matt Hawkins 
+has an excellent web page/blog entry at 
+http://www.raspberrypi-spy.co.uk/2014/07/raspberry-pi-model-b-3-5mm-audiovideo-jack/ 
+which clears up the confusion. That same info works with the model A+.
 
 Turning the board over there are some components, lots of test points (so that 
 Sony can trap any dud boards during manufacture) and the microSD card slot. 
 That's a bit different from the model A & B where it was a full size slot so 
-we're going to have to clone our full-size SD cards to microSD before we can 
-use them in a model A+. 
+we're going to have to clone our full-size SD cards to microSD cards before 
+we can use them in a model A+. 
 
 The current versions of NOOBS, NOOBS lite and the other OS images from 
 http://www.raspberrypi.org/download will all work on a model A+, we just need a 
@@ -64,49 +66,75 @@ working network you'd get into a catch-22 situation if you try to use a WiFi
 dongle that needs a special driver downloaded from the Internet unless you can 
 use another Raspberry Pi to get the driver downloaded onto your microSD card. 
 My WiPi (Ralink Technology, Corp. RT5370) dongle worked as soon as I configured
-my WiFi SSID and password.
+my WiFi SSID and password. If you have an unsupported WiFi dongle you'll need 
+to pre-install the firmware on a model B or B+ or will need to jump through
+some hoops (copying installation files to the FAT partition on an SDCard) to
+get the dongle working.
 
 The way we test which model of Raspberry Pi we're running on is to look at the
-special virtual file created by the Linux kernel. It has lots of interesting
-information.
+special /proc virtual file system created by the Linux kernel. It has lots of 
+interesting information.
 
 << note to layout --- insert aplus.cpuinfo.txt in a CODE block here >>
 
 The only thing that differs (apart from the unique serial number) is Revision.
 The Raspberry Pi Foundation has given the A+ a revision number of 0x0012. 
 
-As usual with each of the new Raspberry Pis Alex Eames (http://RasPi.TV) has 
+As usual with each of the new Raspberry Pis; Alex Eames (http://RasPi.TV) has 
 done some power usage measurements. (You can find his complete results on his
 website.) He did a sequence of four tests on a model B, model B+ and his new
 model A+. His conclusion is that the Raspberry Pi A+ uses 70% less power than 
 the old model A. That means the folks who want to launch their Raspberry Pi to
-40Km under a helium balloon will get more run-time before their batteries go
-flat. It also means I can run my Raspberry Pi A+ powered by the mains for a 
-whole year for less than one pound.
+40Km under a helium balloon not only have a lower payload mass, but will get 
+more run-time before their batteries go flat. It also means I can run my 
+Raspberry Pi A+ powered by the mains for a whole year for less than one pound.
 
 The first peripheral I tested was a Fish Dish (see the article in MagPi Issue 
 #25 page 12) that simply fits the GPIO pins with the board overhanging the 
 new pins on the A+. It gives us a piezo beeper, a switch and three LEDs 
 connected to pins 8, 7, 4, 9 & 22 respectively. There's no problem getting a 
-simple GPIO board like that working with the A+.
+simple GPIO board like that working with the A+. If the connector fits and
+we line the board up on the compatible pins it will work.
 
 Next test was with my ModMyPi 8X8 matrix. That fits OK, although the board is
 a bit wobbly because it normally rests on the current smoothing capacitor on
 a model B and that component is gone on the A+, but it's not something we can't
-find a quick fix for.
+find a quick fix for with some insulated packing.
 
 I then tested my PiFaceCAD. This one is too long for the A+, so the end of the 
-PiFace board hangs over the USB plug (for my 4-port hub). There were the python
-PiFace packages to install (sudo apt-get install python{,3}-piface*). Once those
-extra software packages were installed it worked with no problems. Again the 
-board is a bit wobbly because it's designed to rest on the ethernet, video and 
-audio connectors on a model B. 
+PiFace board hangs over the USB plug (for my 4-port hub). On a fresh install of 
+Raspbian there were the python PiFace packages to install with 
+  sudo apt-get install python{,3}-piface*
+Once those extra software packages were installed it worked with no problems. 
+Again the board is a bit wobbly because it's designed to rest on the ethernet, 
+video and audio connectors on a model B. 
 
 Following on from my Arduberry article in issue #28 it made sense to test that
-peripheral
+peripheral. It has the same wobble, but fits OK and runs in exactly the same way
+that it runs on my model B.
+
+I also have a Wolfson audio board, but it is impossible to use that or rig that
+to run on an A+ as the P5 header has been eliminated (in the same way it has gone
+from the B+). That board will only run on second generation model Bs or 
+model As 
 
 The final test was with my Quick2Wire GPIO expander board. It uses a ribbon cable
 to connect the GPIO pins on my model B to the expansion board. That connector 
-would not fit the 40pin header on the A+ so I'll have to build a new cable with a 
-40pin connector on one end and a 26pin on the other. For a quick test I rigged it
-up with a collection of female to female dupont wires.
+would not fit the 40-pin header on the A+ so I'll have to build a new cable 
+with a 40-pin IDC connector on one end and a 26-pin IDC connector on the other. 
+For a quick test I rigged it up with a collection of female to female dupont 
+wires. That's a problem with any add-on that uses an insulation-displacement 
+(IDC) connector as a short IDC plug usually won't fit a longer header.
+
+So to summarise, we've got a fifth member of the Raspberry Pi family (including
+the Compute Module). The new A+ has lots of similarities with the older model A
+but more similarities with the newer B+. The primary features are the 40-pin
+header which exposes the extra GPIO pins and the second I2C interface, the 
+whole package is 20mm shorter than the A, B or B+ boards and weighs less than
+those three. We've lost half of the RAM but for the type of sophisticated 
+controller applications that we will be running on our model A+ Raspberry Pis
+that won't be a limitation. The model A+ is a perfect replacement for the 
+model A (launched in Feb 2013). The biggest limitation is the lack of any 
+on-board networking, so most folks will need to buy a supported USB WiFi dongle 
+or will need a USB ethernet adapter. In terms of price we can't go wrong with a 
+model A+, it is the cheapest of all of the Raspberry Pis.
