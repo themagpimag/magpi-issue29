@@ -1,4 +1,5 @@
-#!/usr/bin/ python
+#!/usr/bin/python
+
 # This program is for the bidirectional traffic light project from Brian Grawburg.
 # This for the printed circuit board
 # As of this writing (5/2014) only Python 2.7 supports smbus. Trying to run
@@ -114,3 +115,4 @@ except KeyboardInterrupt:
 	bus.write_byte_data(address2,OLATA_2,0x00)	
 	
 			
+
