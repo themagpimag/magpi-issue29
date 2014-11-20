@@ -58,3 +58,4 @@ try:
 			
 except KeyboardInterrupt:
 	cycle(0)
+	bus.write_byte_data(address2,OLATA,0x00)		
