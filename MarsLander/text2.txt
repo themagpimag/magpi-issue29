@@ -1,0 +1,3 @@
+The idea of the game is to land the spacecraft on the landing pad.  If the spacecraft lands on the surrounding ground, then it will explode.  If the spacecraft does not touch down on the landing platform correctly, then it will explode too.  The spacecraft must be travelling slowly when it touches down or it will be destroyed.
+
+The Lander sprite has three costumes, to show the Lander with its engines on, when crashed, and when the engines are off.  The costume with the engines off was copied and then modified to form the other costumes.  The costumes were drawn on their sides, such that an angle of zero degrees corresponds to the spacecraft pointing straight upwards.  (More details of the Scratch system of angles are given in Issue 17.) 
