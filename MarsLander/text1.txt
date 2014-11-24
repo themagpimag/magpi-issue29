@@ -1,3 +1,0 @@
-Adding natural physics processes to games can make them more real and thrilling to play.  In Issue 17, a simple projectile motion game was introduced.  The game included  gravity and initial velocity.  These concepts can be used for other types of games too.
-
-This month's game introduces the simulation of a spaceship landing on a remote planet, where the landing craft obeys the normal laws of physics.  In this case, the Lander has rocket motors to change its direction.
