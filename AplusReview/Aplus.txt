@@ -26,18 +26,27 @@ moved round the corner. The 3.5mm socket moved from the top of the board to the
 bottom right. The other three are in roughly the same place as before. The 
 yellow AV and blue/black audio are now combined in a single socket.
 
-With the model B+ there has been lots of trouble for folks who can't use HDMI 
-and choose analogue audio and video but can't get a video signal to work. There 
-is no standard for the connections for a four pole 3.5mm jack.  Matt Hawkins 
-has an excellent web page/blog entry at 
-http://www.raspberrypi-spy.co.uk/2014/07/raspberry-pi-model-b-3-5mm-audiovideo-jack/ 
-which clears up the confusion. That same info works with the model A+.
-
 Turning the board over there are some components, lots of test points (so that 
 Sony can trap any dud boards during manufacture) and the microSD card slot. 
 That's a bit different from the model A & B where it was a full size slot so 
 we're going to have to clone our full-size SD cards to microSD cards before 
 we can use them in a model A+. 
+
+So all in all what we have is an superb tiny computer. It's got lots of 
+processing power in an incredibly small package. It's going to be the Raspberry
+Pi of choice for anyone who needs the lowest weight and smallest footprint (and
+it fits in an Altoids tin).
+
+As usual with each of the new Raspberry Pis; Alex Eames (http://RasPi.TV) has 
+done some power usage measurements. (You can find his complete results on his
+website.) He did a sequence of four tests on a model B, model B+ and his new
+model A+. His conclusion is that the Raspberry Pi A+ uses 70% less power than 
+the old model A. That means the folks who want to launch their Raspberry Pi to
+40Km under a helium balloon not only have a lower payload mass, but will get 
+more run-time before their batteries go flat. It also means I can run my 
+Raspberry Pi A+ powered by the mains for a whole year for less than one pound.
+I'm sure we'll see lots of robot projects that are based around a Raspberry Pi
+A+ rather than the other models.
 
 The current versions of NOOBS, NOOBS lite and the other OS images from 
 http://www.raspberrypi.org/download will all work on a model A+, we just need a 
@@ -50,26 +59,31 @@ process for doing that is well documented on http://www.raspberrypi.org/forum
 
 So we boot Raspbian on the model A+ and take a look at the differences from a 
 software point of view. First major difference is that the A+ only has half the 
-available RAM (256M) compared to a model B or B+ (512M). The second difference 
-is that (unless we use a USB WiFi dongle, USB wired ethernet dongle or SPI 
-ENC28J60 SPI ethernet board) there is NO NETWORK. We're also going to need a 
-USB HUB because a USB keyboard, USB mouse and USB WiFi won't all fit in a 
-single USB socket. 
+available RAM (256MB) compared to a model B or B+ (512MB). The second
+difference is that (unless we use a USB WiFi dongle, USB wired ethernet dongle
+or SPI ENC28J60 SPI ethernet board) there is NO NETWORK. We're also going to 
+need a USB HUB because a USB keyboard, USB mouse and USB WiFi won't all fit in
+a single USB socket. That may appear as a limitation but the weight savings
+from not having those connectors is a bonus and worth it.
 
-Because I have a SPI ENC28J60 ethernet board in my box of Arduino bits I'm 
-going to give that a go but that's going to need a custom made Linux kernel to 
-get that one working. For the average model A+ user I'd recommend getting a 
-Tenda W311M Wireless-N150 USB WiFi dongle which has the RT5370 chipset or an 
-Edimax EW-7811Un (rtl8188cus chipset) nano USB dongle as both of those have the 
-drivers built-in to the standard Raspbian distribution. Remember without a 
-working network you'd get into a catch-22 situation if you try to use a WiFi 
-dongle that needs a special driver downloaded from the Internet unless you can 
-use another Raspberry Pi to get the driver downloaded onto your microSD card. 
-My WiPi (Ralink Technology, Corp. RT5370) dongle worked as soon as I configured
-my WiFi SSID and password. If you have an unsupported WiFi dongle you'll need 
-to pre-install the firmware on a model B or B+ or will need to jump through
+For the average model A+ user (if you don't have another Raspberry Pi) I'd 
+recommend getting a Tenda W311M Wireless-N150 USB WiFi dongle which has the 
+RT5370 chipset or an Edimax EW-7811Un (rtl8188cus chipset) nano USB dongle as
+both of those have the drivers built-in to the standard Raspbian distribution.
+Remember without a working network you'd get into a catch-22 situation if you
+try to use a WiFi dongle that needs a special driver downloaded from the 
+Internet unless you can use another Raspberry Pi to get the driver downloaded
+onto your microSD card. My WiPi (Ralink Technology, Corp. RT5370) dongle worked
+as soon as I configured my WiFi SSID and password. 
+
+If you have an unsupported WiFi dongle you'll need to pre-install the firmware
+by booting your microSD card on a model B or B+ or will need to jump through
 some hoops (copying installation files to the FAT partition on an SDCard) to
-get the dongle working.
+get your dongle working.
+
+I had an SPI ENC28J60 ethernet board in my box of Arduino bits. I've given that
+a go by building a custom made Linux kernel. So with some work it is possible 
+to get wired interface running (without using a USB/ethernet interface).
 
 The way we test which model of Raspberry Pi we're running on is to look at the
 special /proc virtual file system created by the Linux kernel. It has lots of 
@@ -79,15 +93,6 @@ interesting information.
 
 The only thing that differs (apart from the unique serial number) is Revision.
 The Raspberry Pi Foundation has given the A+ a revision number of 0x0012. 
-
-As usual with each of the new Raspberry Pis; Alex Eames (http://RasPi.TV) has 
-done some power usage measurements. (You can find his complete results on his
-website.) He did a sequence of four tests on a model B, model B+ and his new
-model A+. His conclusion is that the Raspberry Pi A+ uses 70% less power than 
-the old model A. That means the folks who want to launch their Raspberry Pi to
-40Km under a helium balloon not only have a lower payload mass, but will get 
-more run-time before their batteries go flat. It also means I can run my 
-Raspberry Pi A+ powered by the mains for a whole year for less than one pound.
 
 The first peripheral I tested was a Fish Dish (see the article in MagPi Issue 
 #25 page 12) that simply fits the GPIO pins with the board overhanging the 
@@ -126,7 +131,15 @@ For a quick test I rigged it up with a collection of female to female dupont
 wires. That's a problem with any add-on that uses an insulation-displacement 
 (IDC) connector as a short IDC plug usually won't fit a longer header.
 
-So to summarise, we've got a fifth member of the Raspberry Pi family (including
+With the model B+ there has been some trouble for folks who can't use HDMI and
+choose analogue audio and video but can't get a video signal to work. There is
+no standard for the connections for a four pole 3.5mm jack.  Matt Hawkins has 
+an excellent web page/blog entry at 
+http://www.raspberrypi-spy.co.uk/2014/07/raspberry-pi-model-b-3-5mm-audiovideo-jack/ 
+which clears up the confusion. That same info works with the model A+. My monitor 
+and both my TVs have HDMI so I've not tested the analog audio or video.
+
+So to summarise, we've got the fifth member of the Raspberry Pi family (including
 the Compute Module). The new A+ has lots of similarities with the older model A
 but more similarities with the newer B+. The primary features are the 40-pin
 header which exposes the extra GPIO pins and the second I2C interface, the 
