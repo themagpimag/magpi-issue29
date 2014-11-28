@@ -31,7 +31,7 @@
         <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
-        <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
+        <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="8" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
@@ -204,16 +204,18 @@
             <ITEXT CH="Connections"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The top of the Model A+ is shown below.  The 40-pin GPIO header is on the right-hand side, running down the full length of the board.  The USB port is located at the bottom of the board.  On the left-hand, there is the micro-USB power connector at the top, the HDMI connector in the middle and the combined 3.5mm audio and analogue video jack at the bottom. "/>
+            <ITEXT CH="The top of the Model A+ is shown below.  The 40-pin GPIO header is on the right-hand side, running down the full length of the board.  The USB port is located at the bottom of the board.  On the left-hand, there is the micro-USB power connector at the top, the HDMI connector in the middle and the combined 3.5mm audio and analogue video jack at the bottom."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In the photograph at the bottom left hand side of the previous page, on the previous page, the  from left to right they are the DSI (display interface), micro USB socket (purely for power), HDMI, CSI (camera interface) and the combined 3.5mm audio and analogue video socket. The microUSB socket moved round the corner. The 3.5mm socket moved from the top of the board to the bottom right. The other three are in roughly the same place as before. The yellow AV and blue/black audio are now combined in a single socket.  "/>
+            <ITEXT CH="The DSI (display interface) and CSI (camera interface) are on the top of the board and are labelled as DISPLAY and CAMERA respectively."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Turning the board over there are some components, lots of test points (so that Sony can trap any dud boards during manufacture) and the microSD card slot. That's a bit different from the model A &amp; B where it was a full size slot so we're going to have to clone our full-size SD cards to microSD cards before we can use them in a model A+. "/>
+            <ITEXT CH="Turning the board over there are some components and a lot of test points.  The test points are used for quality control during manufacture.  Similar to the Model B+, the A+ has a microSD card slot.  Unlike the SD card on the Model A, the microSD only requires a little extra space around the edge of the board.  The process for writing a microSD card from a NOOBs or Raspbian image is the same as the process that used for a SD card.  The only requirement is that the card writer must except the smaller SD card form factor. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="So all in all what we have is an superb tiny computer. It's got lots of processing power in an incredibly small package. It's going to be the Raspberry Pi of choice for anyone who needs the lowest weight and smallest footprint (and it fits in an Altoids tin).  As usual with each of the new Raspberry Pis; Alex Eames (http://RasPi.TV) has done some power usage measurements. (You can find his complete results on his website.) He did a sequence of four tests on a model B, model B+ and his new model A+. His conclusion is that the Raspberry Pi A+ uses 70% less power than the old model A. That means the folks who want to launch their Raspberry Pi to 40Km under a helium balloon not only have a lower payload mass, but will get more run-time before their batteries go flat. It also means I can run my Raspberry Pi A+ powered by the mains for a whole year for less than one pound. I'm sure we'll see lots of robot projects that are based around a Raspberry Pi A+ rather than the other models. "/>
+            <ITEXT CH="So all in all the A+ is an superb tiny computer.  It has got lots of processing power in an incredibly small package.  It is going to be the Raspberry Pi of choice for anyone who needs the lowest weight and smallest footprint (and it fits in an Altoids tin).  As usual with each of the new Raspberry Pis; Alex Eames ("/>
+            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://raspi.tv"/>
+            <ITEXT CH=") has done some power usage measurements.  (Alex's complete results can be found on his website.)  Alex has run a sequence of four tests on a Model B, Model B+ and the new Model A+.  The conclusion of these tests is that the Model A+ uses 70% less power than the old model A.  That means that those interested in launching their Raspberry Pi to 40km under a helium balloon not only have a lower payload mass, but will get more run-time before their batteries go flat.  It also means that I can run my Model A+ from mains electricity for a whole year for less than one pound.  I'm sure we'll see lots of robot projects that are based around the Model A+, rather than the other models. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Software"/>
@@ -231,34 +233,34 @@
             <ITEXT CH="If you have an unsupported WiFi dongle you'll need to pre-install the firmware by booting your microSD card on a model B or B+ or will need to jump through some hoops (copying installation files to the FAT partition on an SDCard) to get your dongle working.  I had an SPI ENC28J60 ethernet board in my box of Arduino bits. I've given that a go by building a custom made Linux kernel. So with some work it is possible to get wired interface running (without using a USB/ethernet interface).  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Model Version"/>
+            <ITEXT CH="Checking the Model type"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The way we test which model of Raspberry Pi we're running on is to look at the special /proc virtual file system created by the Linux kernel. It has lots of interesting information.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="processor            : 0"/>
+            <ITEXT FONTSIZE="8" CH="processor  : 0"/>
             <para PARENT="Code"/>
-            <ITEXT CH="model name : ARMv6-compatible processor rev 7 (v6l)"/>
+            <ITEXT FONTSIZE="8" CH="model name : ARMv6-compatible processor rev 7 (v6l)"/>
             <para PARENT="Code"/>
-            <ITEXT CH="Features      : swp half thumb fastmult vfp edsp java tls"/>
+            <ITEXT FONTSIZE="8" CH="Features   : swp half thumb fastmult vfp edsp java tls"/>
             <para PARENT="Code"/>
-            <ITEXT CH="CPU implementer : 0x41"/>
+            <ITEXT FONTSIZE="8" CH="CPU implementer : 0x41"/>
             <para PARENT="Code"/>
-            <ITEXT CH="CPU architecture  : 7"/>
+            <ITEXT FONTSIZE="8" CH="CPU architecture : 7"/>
             <para PARENT="Code"/>
-            <ITEXT CH="CPU variant          : 0x0"/>
+            <ITEXT FONTSIZE="8" CH="CPU variant : 0x0"/>
             <para PARENT="Code"/>
-            <ITEXT CH="CPU part               : 0xb76"/>
+            <ITEXT FONTSIZE="8" CH="CPU part : 0xb76"/>
             <para PARENT="Code"/>
-            <ITEXT CH="CPU revision         : 7"/>
+            <ITEXT FONTSIZE="8" CH="CPU revision : 7"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="Hardware              : BCM2708"/>
+            <ITEXT FONTSIZE="8" CH="Hardware : BCM2708"/>
             <para PARENT="Code"/>
-            <ITEXT CH="Revision                : 0012"/>
+            <ITEXT FONTSIZE="8" CH="Revision : 0012"/>
             <para PARENT="Code"/>
-            <ITEXT CH="Serial                     : 000000005b592f7f"/>
+            <ITEXT FONTSIZE="8" CH="Serial : 000000005b592f7f"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The only thing that differs (apart from the unique serial number) is Revision. The Raspberry Pi Foundation has given the A+ a revision number of 0x0012. "/>
