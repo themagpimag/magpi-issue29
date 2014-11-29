@@ -228,7 +228,7 @@
             <ITEXT CH="Networking"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Similar to the Model A, the Model A+ does not have a RJ45 Internet connection.  Therefore, networking can be provided either using a USB WiFi dongle, USB wired ethernet dongle or SPI ENC28J60 SPI ethernet board."/>
+            <ITEXT CH="Similar to the Model A, the Model A+ does not have a RJ45 Internet connection.  Therefore, networking can be provided either using a USB WiFi dongle, USB wired ethernet dongle or ENC28J60 SPI ethernet board."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="To configure the Model A+ and setup the networking, a USB hub is needed to connect a keyboard and mouse.   Once the A+ has been deployed within a robot or similar remote autonomous project, the USB is probably not going to be needed.  Therefore, only having one USB port reduces the size and power consumption of the A+. "/>
