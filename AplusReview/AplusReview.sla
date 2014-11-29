@@ -228,7 +228,7 @@
             <ITEXT CH="Networking"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Similar to the Model A, the Model A+ does not have a RJ45 Internet connection.  Therefore, networking can be provided either using a USB WiFi dongle, USB wired ethernet dongle or ENC28J60 SPI ethernet board."/>
+            <ITEXT CH="Similar to the Model A, the Model A+ does not have a RJ45 Internet connection.  Therefore, networking can be provided either using a USB WiFi dongle, USB wired ethernet dongle or SPI ENC28J60 SPI ethernet board."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="To configure the Model A+ and setup the networking, a USB hub is needed to connect a keyboard and mouse.   Once the A+ has been deployed within a robot or similar remote autonomous project, the USB is probably not going to be needed.  Therefore, only having one USB port reduces the size and power consumption of the A+. "/>
@@ -303,7 +303,9 @@
             <ITEXT CH="Summary"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The Model A+ has lots of similarities to the older Model A, but more similarities to the newer Model B+.  The primary new features are the 40-pin header that provides access to extra GPIO pins and the second I2C interface, the whole package is 20mm shorter than the A, B or B+ boards and weighs less than Models A, B and B+.  The Model A+ is perfect for projects that require the lowest power consumption and smallest form factor."/>
+            <ITEXT CH="The Model A+ has lots of similarities to the older Model A, but more similarities to the newer Model B+.  The primary new features are the 40-pin header that provides access to extra GPIO pins and the second I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C interface, the whole package is 20mm shorter than the A, B or B+ boards and weighs less than Models A, B and B+.  The Model A+ is perfect for projects that require the lowest power consumption and smallest form factor."/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
