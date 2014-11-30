@@ -185,7 +185,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="23" BACKITEM="-1">
-            <ITEXT CH="After much speculation, the Raspberry Pi Foundation officially released the Model A+ Raspberry Pi on the 10th of November.  The Model A+ is an upgraded version of the Model A, which is intended for embedded applications.  Similar to the Model A, the Model A+ has 256MBytes of memory on top of the SoC and a single USB socket. The Model A+ mirrors the other Model B+ interfaces, including the longer GPIO connector and combined audio and analogue video jack.  The Model A+ is only 65mm long and weighs just 23g, which is a siginificant reduction over the Model B+ length 85mm and and weight 41g and the previous Model A.  The processor is the standard Broadcom BCM2835 SoC that is present on all current and previous Raspberry Pi products."/>
+            <ITEXT CH="After much speculation, the Raspberry Pi Foundation officially released the Model A+ Raspberry Pi on the 10th of November.  The Model A+ is an upgraded version of the Model A, which is intended for embedded applications.  Similar to the Model A, the Model A+ has 256MBytes of memory on top of the SoC and a single USB socket. The Model A+ mirrors the other Model B+ interfaces, including the longer GPIO connector and combined audio and analogue video jack.  The Model A+ is only 65mm long and weighs just 23g, which is a significant reduction over the Model B+ length 85mm and and weight 41g and the previous Model A.  The processor is the standard Broadcom BCM2835 SoC that is present on all current and previous Raspberry Pi products."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Pricing"/>
@@ -197,7 +197,7 @@
             <ITEXT CH="Layout"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The first thing that stands out about the Model A+ are the mounting holes.  They have the same spacing as the mounting holes on the B+, such that HAT (Hardware Attached on Top) boards can be securely fitted. The GPIO connector is located allong the same edge as the Model B+ and also has 40-pins. The left hand 26-pins are associated with the same connections as the 26-pin header on the Model A and version 2 Model B Raspberry Pis."/>
+            <ITEXT CH="The first thing that stands out about the Model A+ are the mounting holes.  They have the same spacing as the mounting holes on the B+, such that HAT (Hardware Attached on Top) boards can be securely fitted. The GPIO connector is located along the same edge as the Model B+ and also has 40-pins. The left hand 26-pins are associated with the same connections as the 26-pin header on the Model A and version 2 Model B Raspberry Pis."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Connections"/>
@@ -228,56 +228,67 @@
             <ITEXT CH="Networking"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Similar to the Model A, the Model A+ does not have a RJ45 Internet connection.  Therefore, networking can be provided either using a USB WiFi dongle, USB wired ethernet dongle or SPI ENC28J60 SPI ethernet board."/>
+            <ITEXT CH="Similar to the Model A, the Model A+ does not have a RJ45 Internet connection.  Therefore, networking can be provided either using a USB WiFi dongle, USB wired Ethernet dongle or ENC28J60 SPI Ethernet board."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To configure the Model A+ and setup the networking, a USB hub is needed to connect a keyboard and mouse.   Once the A+ has been deployed within a robot or similar remote autonomous project, the USB is probably not going to be needed.  Therefore, only having one USB port reduces the size and power consumption of the A+. "/>
+            <ITEXT CH="To configure the Model A+ and initialise the networking, a USB hub is needed to connect a keyboard and mouse.   Once the A+ has been deployed within a robot or similar remote autonomous project, the USB is probably not going to be needed.  Therefore, only having one USB port reduces the size and power consumption of the A+. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="For the average model A+ user, I recommend purchasing either a Tenda W311M Wireless-N150 USB WiFi dongle (T5370 chipset) or an Edimax EW-7811Un dongle (rtl8188cus chipset).  The drivers for both of these dongles are already present within the Raspbian distribution.  Remember that without a working network, it is more difficult to install a special driver that has to be downloaded from the Internet."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Checking the Model type"/>
+            <ITEXT FONTSIZE="11" CH="Checking the Model type"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="cat /proc/cpuinfo ?"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The way we test which model of Raspberry Pi we're running on is to look at the special /proc virtual file system created by the Linux kernel. It has lots of interesting information.  "/>
+            <ITEXT FONTSIZE="11" CH="Linux provides access to system information via the /proc virtual file system.  The CPU type can be printed by typing "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="cat /proc/cpuinfo"/>
+            <ITEXT CH="  "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="For a Model A+, this will return something similar to:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="8" CH="processor  : 0"/>
+            <ITEXT FONTSIZE="8" CH=" processor       : 0"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="model name : ARMv6-compatible processor rev 7 (v6l)"/>
+            <ITEXT FONTSIZE="8" CH=" model name  : ARMv6-compatible processor rev 7 (v6l)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="Features   : swp half thumb fastmult vfp edsp java tls"/>
+            <ITEXT FONTSIZE="8" CH=" Features        : swp half thumb fastmult vfp edsp  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="CPU implementer : 0x41"/>
+            <ITEXT FONTSIZE="8" CH=" java tls"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="CPU architecture : 7"/>
+            <ITEXT FONTSIZE="8" CH=" CPU implementer : 0x41"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="CPU variant : 0x0"/>
+            <ITEXT FONTSIZE="8" CH=" CPU architecture: 7"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="CPU part : 0xb76"/>
+            <ITEXT FONTSIZE="8" CH=" CPU variant     : 0x0"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="CPU revision : 7"/>
+            <ITEXT FONTSIZE="8" CH=" CPU part        : 0xb76"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="8" CH=" CPU revision    : 7"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="Hardware : BCM2708"/>
+            <ITEXT FONTSIZE="8" CH=" Hardware        : BCM2708"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="Revision : 0012"/>
+            <ITEXT FONTSIZE="8" CH=" Revision        : 0012"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="8" CH="Serial : 000000005b592f7f"/>
+            <ITEXT FONTSIZE="8" CH=" Serial          : 000000005b592f7f"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The Revision number is used to store the Model information, where a revision number of 0x0012 corresponds to a Model A+.  (The Serial number is unique for each Raspberry Pi.)"/>
+            <ITEXT CH="where the "/>
+            <ITEXT FONT="Monaco Regular" CH="Revision"/>
+            <ITEXT CH=" number is used to store the Model information and a "/>
+            <ITEXT FONT="Monaco Regular" CH="Revision"/>
+            <ITEXT CH=" number of "/>
+            <ITEXT FONT="Monaco Regular" CH="0x0012"/>
+            <ITEXT CH=" corresponds to a Model A+.  (The Serial number is unique for each Raspberry Pi.)"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Testing peripherals"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="There are a lot of Raspberry Pi peripherals on the market.  Many of these add-on boards are designed to fit the Model B and may rely on the placements of the Model B components or the 26-pin header dimensions to allow dirrect connection.  However, with some adapters or slight additions of supporting material it is normally possible to get peripherals running as normal."/>
+            <ITEXT CH="There are a lot of Raspberry Pi peripherals on the market.  Many of these add-on boards are designed to fit the Model B and may rely on the placements of the Model B components or the 26-pin header dimensions to allow direct connection.  However, with some adapters or slight additions of supporting material it is normally possible to get peripherals running as normal."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The first peripheral that I tested was a Fish Dish.  (A description of the Fish Dish is  given in Issue 25 of the MagPi.)  The Fish Dish can be easily connected to the A+ and fits the GPIO pins with the edge of the Fish Dish overhanging the new pins on the A+.  "/>
+            <ITEXT CH="The first peripheral that I tested was a Fish Dish.  (A description of the Fish Dish is  given in Issue 25 of The MagPi.)  The Fish Dish can be easily connected to the A+ and fits the GPIO pins with the edge of the Fish Dish overhanging the new pins on the A+.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The ModMyPi 8X8 matrix was next in my test list.  The matrix board fits, but is a little wobbly.  This can be made more secure with a little insulating tape."/>
@@ -286,13 +297,13 @@
             <ITEXT CH="Next up was my PiFaceCAD.  This board is longer than the A+, such the end of the PiFace board hangs over the USB plug.  The PiFaceCAD worked as expected and could be secures with a bit more tape."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Following on from my Arduberry article in Issue 28 of the MagPi, it made sense to run a test on it too.  It had the same wobble, but was easily connected and  ran without any problems."/>
+            <ITEXT CH="Following on from my Arduberry article in Issue 28 of The MagPi, it made sense to run a test on it too.  It had the same wobble, but was easily connected and  ran without any problems."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The Wolfson audio board was designed to run on a Model A or a second generation Model B Raspberry Pi, since it is dependent on the presence of the P5 header.  Therefore, I will continue to use that with my Model B."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The final peripheral to be tested was my Quick2Wire GPIO expander board.  The GPIO expander is designed with a 26-pin female connector on the end of a ribbon cable that should be connected to a 26-pin GPIO header.  A 26-pin female connector cannot be directly connected to a 40-pin header, such as present on the Model A+ or  B+, since the additional pins interfer with the connector.  The easest way to solve this problem is to make a new ribbon cable that has a 40-pin IDC connector on one end and a 26-pin IDC connector on the other.  Making ribbon cables with IDC connectors is covered in Issue ?? of the MagPi."/>
+            <ITEXT CH="The final peripheral to be tested was my Quick2Wire GPIO expander board.  The GPIO expander is designed with a 26-pin female connector on the end of a ribbon cable that should be connected to a 26-pin GPIO header.  A 26-pin female connector cannot be directly connected to a 40-pin header, such as present on the Model A+ or  B+, since the additional pins interfere with the connector.  The easiest way to solve this problem is to make a new ribbon cable that has a 40-pin IDC connector on one end and a 26-pin IDC connector on the other.  Making ribbon cables with IDC connectors is covered in Issue 3 of The MagPi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The community has been adapting to the presence of the combined audio and analogue jack on the Model B+, since there is no common standard for connections of this sort to a four pole 3.5mm jack.  The four pole connector on the Model B+ is the same as on the A+.  Thankfully, Matt Hawkins has provided  an excellent write up at"/>
@@ -377,6 +388,10 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="410.74937007874" YPOS="2328.75" WIDTH="256.186062992127" HEIGHT="47.4711023622058" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.raspberrypi-spy.co.uk/2014/07/raspberry-pi-model-b-3-5mm-audiovideo-jack/" ANZIEL="2" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.186 0 256.186 0 256.186 0 256.186 0 256.186 47.4711 256.186 47.4711 256.186 47.4711 256.186 47.4711 0 47.4711 0 47.4711 0 47.4711 0 47.4711 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.186 0 256.186 0 256.186 0 256.186 0 256.186 47.4711 256.186 47.4711 256.186 47.4711 256.186 47.4711 0 47.4711 0 47.4711 0 47.4711 0 47.4711 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347086614173" YPOS="1938" WIDTH="256.402913385827" HEIGHT="177" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="5" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 177 256.403 177 256.403 177 256.403 177 0 177 0 177 0 177 0 177 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 177 256.403 177 256.403 177 256.403 177 0 177 0 177 0 177 0 177 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
