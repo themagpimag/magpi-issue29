@@ -272,7 +272,7 @@
             <ITEXT FONTSIZE="14" SCALEH="102" SCALEV="100" CH="The Code."/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT SCALEH="102" SCALEV="100" CH="The following page shows a sample Python script that can demonstrate the system. Much of the script is about defining labels that refer to the various ports or values we latter poke into those ports. Using labels (or constants, variables) like this is always a good idea as it makes the actual code much easier to read and modify."/>
+            <ITEXT SCALEH="102" SCALEV="100" CH="The following page shows a sample Python script that can demonstrate the system. Much of the script is about defining labels that refer to the various ports or values we later poke into those ports. Using labels (or constants, variables) like this is always a good idea as it makes the actual code much easier to read and modify."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT SCALEH="102" SCALEV="100" CH="The full project manual, including the Python code, can be downloaded from the Triangle Embedded Devices Web page: "/>
