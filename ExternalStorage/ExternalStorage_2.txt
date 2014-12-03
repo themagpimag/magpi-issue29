@@ -1,0 +1,104 @@
+It is a good idea to backup any unique files that are not part of a software package or standard installation script, by saving them to an external or remote storage area.  This allows the freedom to experiment with a Raspberry Pi software installation in the knowledge that files can be recovered if something goes wrong.
+
+When developing software, it can be helpful to use an external repository such as github.  To make sure that the files are safe, each change can then be pushed to the external repository.  The external repository can also be downloaded onto another computer for recovery or assessment by a teacher.  More information on repositories is provided within the Version Control article in this Issue of The MagPi.
+
+Instead of using an external repository, it is possible to back up a complete SD card.  This type of backup operation was discussed in Issue 10 of The MagPi.  The complete backup of an SD card is not as quick as using an external repository, but allows the posibility of saving larger files.  While files can be recovered from a SD card image by re-installing a SD card or by mounting the image on another disk, it is not very convienent for single file recovery and does not allow direct file access on non-Linux computers.
+
+When developing software or other applications, unique files are often kept within a users home directory, whereas the other files on an SD card were installed by using a package manager and a set of installation instructions.  This means that most of the SD card can be reinstalled by using a basic image such as Raspbian and a script that contains package installation commands (apt-get, pip install, etc.).   The rest of this artcle assumes that the latest Raspbian Linux image has been installed on the client Raspberry Pi, but should work for other Linux distributions too.
+
+File system considerations
+
+There are several file systems that could be used to store files from a Raspberry Pi.  However, some are more suitable than others.  For example, a USB memory key is typically formatted using the FAT32 file system.  While accessable on many different operating systems, this file system does not allow LINUX file permissions to be preserved.  However, file creation time can be retained.  For this reason, the FAT32 file system is not suitable to be used as a home directory, but could be used to backup files.  New external hard disks are often formatted with the NTFS file system.  ??  A better choice would be to use EXT4, ZFS or OSX file systems, which allow the file permissions to be preserved.
+
+
+
+Mounting a USB key
+
+USB memory keys are cheap and can be connected directly to a Raspberry Pi, via a USB hub or from a remote Raspberry Pi or other computer on the same network.  USB keys provide a cheap backup solution, but can fail if used for a large number of backup operations. 
+
+When a USB device is attached to a Raspberry Pi that is running Raspbian it will cause a message to be printed in the /var/log/messages file.  While the kernel in Raspbian recognises a large number of USB devices, it does not automatically mount storage devices.  
+
+Before attaching a USB key, open an LXTerminal and type
+
+ sudo tail -f /var/log/messages
+
+Then connect a new USB key to the Raspberry Pi, either directly or via a USB hub.  When the USB key is attached a message similar to the one at the bottom of this page will be printed on the screen.  Once the message has been printed, type CTRL-C to exit the tail command. 
+
+In the example tail output below, sda is the device name.  There is only one partition on the device sda, which is called sda1.  If there were more partitions on the device, then they would be visible in the output message.  If more than one USB storage device is connected, then the second device will be called sdb.
+
+A storage device cannot be directly mounted and needs to have at least one partion.  A new USB key or hard disk will typically have only one partition.  To use the partition within Linux it has to be mounted.  A mounted partition provides storage that is partially in memory and partially on the storage medium.  This means that the partition is not as likely to become fragmented, but also means that data can be lost if the storage device is removed without unmounting the device.
+
+The USB key in the example tail output can be mounted as the /mnt directory by typing:
+
+ sudo mount /dev/sda1 /mnt
+
+Once this command has been typed, the size of the USB key and the remaining space can be determined by typing:
+
+ df -h /mnt
+
+Once some files have been copied to or from /mnt, the USB file system can be safely unmounted either by shutting down the Raspberry Pi or by typing:
+
+ sudo umount /mnt
+
+If an application is still using /mnt, then the command will fail and report that the file system as being busy. 
+
+
+Similar to a hard disk, a USB key can be formatted using several different file systems.
+ The file system can then be created using the appropriate mkfs command.  For example,
+
+sudo mkfs.ext4 /dev/sda1
+
+will format the /dev/sda1 partition with the ext4 file system, where /dev/sda is the USB device name.  More file system options can be found by typing 
+
+man mkfs
+
+Rsync
+
+Files that are in a user's home directory can either be copied to another storage medium connected to the same Raspberry Pi or onto another Raspberry Pi or another computer.  The rsync command provides an efficient way of copying files from the SD card to another storage medium, since repeating a rsync command that preseves file time stamp information will only cause additional files or changes to be copied.  This means that the time to regularly backup files is greatly reduced.  While this article provides some examples of the rsync command more documentation is available by typing 
+
+man rsync
+
+where typing 'q' will cause man to quit.
+
+
+
+In this example, the part that needs to be kept is the users home directory.  Either backing up the home directory or mounting it from some network attached storage (NAS) allows the files in the home directory to be viewed once the Raspberry Pi has been turned off or taken away to another location.
+
+rsync backup
+
+The Linux command rsync can be used to copy files, where all of the file attibutes such as the time stamp, symbolic links and user ownership are preserved.
+
+rsync -av /home/pi/ pi@remotemachine:/backup/pi/
+
+This command will preseve all of the permissions, but will not delete files on the remote side.  (The command required that there is a user called pi on the remotemachine and will prompt for a password.)
+
+Files that are on the remote side that are no longer present on the local side can be removed from the remote side using
+
+rsync -av --delete /home/pi/ remotemachine:/backup/pi/
+
+However, files that are deleted can be kept as incremental backups instead:
+
+#!/bin/bash  
+backup_disk="/media/backup"  # USB disk that was attached to a Linux PC
+exclude_from="/etc/rsync-conf/exclude_list.txt"  # A list of files to ignore
+log_dir="/root/backup/log"  # 
+backup_log=$log_dir"/backup-"$(date "+%Y%m%d-%H%M%S")".log"
+inc_dir=$backup_disk"/inc/"$(date "+%Y%m%d-%H%M%S")
+backup_dir=$backup_disk"/backup-root"
+
+dir="/home/pi/"
+mkdir -p "$backup_dir$dir" 
+rsync -av --delete --exclude-from=$exclude_from --backup --backup-dir=$inc_dir $dir "$backup_dir$dir" > $backup_log
+
+where the exclude_list.txt file contains 
+
+- */.cache/
+- */RpiImages/
+
+to exclude files in the .cache and RpiImages directory.  More information and examples can be found by typing man rsync.
+
+Remote home directories
+
+Unless the rsync command is run, then the files are not copied to the remote storage.  While it is possible to make the rsync command run automatically either when the Raspberry Pi shuts down or at a regular time with crontab, some younger users may forget to do this or allow time for this.  Therefore, mounting the home directory from a remote disk can be a better solution.
+
+The home directory of a Raspberry Pi can be mounted using NFS or CIFS (with UNIX permissions on the remote disk).  Both NFS or CIFS provide stable and responsive solutions.  If Windows permissions are used on the CIFS disk, then the UNIX permissions on the Raspberry Pi will not be preserved which may cause problems for some applications.
