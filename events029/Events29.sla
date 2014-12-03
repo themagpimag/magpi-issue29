@@ -224,7 +224,7 @@
             <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Farset Labs, Linfield Industrial Estate, Belfast, BT12 5GH, UK"/>
             <para PARENT="Body Text Cent" LINESP="13"/>
             <para PARENT="Body Text Cent" LINESP="13"/>
-            <ITEXT FONT="FreeSans Regular" CH="The sessions are aimed at complete beginners with more complicated challanges forthose with already some Raspberry Pi experience. "/>
+            <ITEXT FONT="FreeSans Regular" CH="The sessions are aimed at complete beginners with more complicated challanges and for those with already some Raspberry Pi experience. "/>
             <ITEXT FONT="FreeSans Regular" FCOLOR="Blue" FSHADE="100" CH="http://bit.ly/farsetjam7"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
