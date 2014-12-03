@@ -33,7 +33,7 @@
         <COLOR NAME="fuze blue" RGB="#19629d" Spot="0" Register="0"/>
         <COLOR NAME="orange" RGB="#e3711a" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" LINESP="14" FONTSIZE="12" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
@@ -46,7 +46,7 @@
         <STYLE NAME="P1" LINESPMode="0" LINESP="12" VOR="0" NACH="7.99370078740157" FONT="FreeSans Bold" FONTSIZE="10" FCOLOR="FUZE Red" KERN="0"/>
         <STYLE NAME="P3" LINESPMode="0" LINESP="13.2" VOR="0" NACH="0" FONT="FreeSans Regular" FONTSIZE="11" FCOLOR="Black" KERN="0"/>
         <STYLE NAME="P2" LINESPMode="0" LINESP="12" VOR="0" NACH="7.99370078740157" FONT="FreeSans Bold" FONTSIZE="10" FCOLOR="FUZE Red" KERN="0"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Copy of Default Character Style (1)" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Copy of Default Character Style (2)" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Copy of Default Character Style (3)" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
@@ -393,295 +393,344 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="23" BACKITEM="-1">
-            <ITEXT CH="Before you attempt this project it is important to have covered  through some of the early steps of using FUZE BASIC.  Please be sure to have completed Projects 1-1 and 1-2 before starting this one. Please setup your FUZE computer and connect the Robot Arm to one of the available USB ports.  It’s best to connect the Arm before running FUZE BASIC and make sure it’s switched on."/>
+            <ITEXT CH="In this article I am going to show you how to use FUZE BASIC to control a robot arm. The robot arm that we are using is available in the UK from Maplin Electronics (Code: N35DU or A37JN). Worldwide it is known as the OWI robotic arm. Don't forget you need the USB version. The robot arm is also bundled with the FUZE keyboard in kit T2-R and the new T2-SE-R kit. For more details visit "/>
+            <ITEXT FCOLOR="Blue" CH="http://www.fuze.co.uk/products/"/>
+            <ITEXT CH="."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Before you attempt this project I am going to assume that you have followed the FUZE BASIC articles in issues 26, 27 and 28 of The MagPi. If not I recommend you take the time to read these articles and familiarise yourself with FUZE BASIC."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="What do you mean you haven’t built the Robot Arm yet? Well that just won’t do will it.  Ok off you go then and come back once you’ve done it, in about three hours I reckon."/>
+            <ITEXT CH="&quot;Wir sind die Roboter&quot;"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Please setup your Raspberry Pi and connect the robot arm to one of the available USB ports.  It is best to connect the robot arm before running FUZE BASIC and make sure it is also switched on."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Double click the FUZE BASIC icon to begin"/>
+            <ITEXT CH="Double click the FUZE BASIC icon to begin. As you will have come to expect, FUZE BASIC will leap into action and present you with the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Ready&gt;"/>
+            <ITEXT CH=" prompt."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
+            <ITEXT CH="First of all straighten the robot arm so it is not all folded up. Do not worry if the arm clicks here and there. This is just the gears clicking and nothing actually breaking! Your robot arm should look something like the picture below."/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeSans Bold" CH="Warning"/>
+            <ITEXT CH=": The following commands will set the robot arm moving as soon as you press &lt;Enter&gt;.  If you do not type the next command the arm will go as far as it can and start clicking - you should enter the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="ArmBody (0)"/>
+            <ITEXT CH=" command to stop it. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Type in the following commands, pressing &lt;Enter&gt; after each one:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" ArmBody (1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ArmBody (-1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ArmBody (0)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="If at this point you get an error stating “Unable to find Robot Arm” or similar then exit FUZE BASIC with the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Exit"/>
+            <ITEXT CH=" command. Unplug the robot arm and reconnect it again. Also please make sure the robot arm is switched on. Start FUZE BASIC and try the above again. If at this point it still does not work, seek help from an adult - or if you are an adult then seek help from a child! "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Assuming everything did work correctly, try these other control commands. In each case "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="x"/>
+            <ITEXT CH=" can be either -1, 0 or 1. The exception is "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="ArmLight (x)"/>
+            <ITEXT CH=" where "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="x"/>
+            <ITEXT CH=" can only be 0 or 1. Try out the different values for "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="x"/>
+            <ITEXT CH=" and see what happens:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" ArmShoulder (x)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ArmElbow (x)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ArmWrist (x)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ArmGripper (x)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ArmLight (x)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="A useful trick to know at this point is that you can repeat the last command by pressing the &lt;Up&gt; arrow key and then just edit the number. Remember, you still need to press &lt;Enter&gt;."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Time to write some code"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Let’s put some of this new found knowledge into action. Press &lt;F2&gt; to enter the FUZE Editor. If there is another program listed then make sure it is not needed and then press &lt;F12&gt; to clear it."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Enter the following lines of code:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" CLS"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" PROC ResetArm"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" END"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" DEF PROC ResetArm"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ArmBody (0)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ArmShoulder (0)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ArmElbow (0)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ArmWrist (0)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ArmGripper (0)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ArmLight (0)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ENDPROC"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Press &lt;F3&gt; to run the program. You will be prompted for a file name. Name it something like “RobotArm”, for example."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The purpose of this code is to make sure the robot arm can be instructed to switch everything off, so absolutely nothing will happen when you run the program, but we will use this code a lot later."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Edit the program to add the following code at the end:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" DEF PROC DisplayInstructions"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CLS"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   FONTSCALE (2, 2)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   INK = Red"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “We are the ROBOTS!”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   INK = White"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   HVTAB (0,2)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “Press”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “1 or 2 for Body left &amp; right”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “3 or 4 for Shoulder up &amp; down”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “5 or 6 for Elbow up &amp; down”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “7 or 8 for Wrist up &amp; down”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “9 or 0 for Gripper open &amp; close”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “Enter to turn the Robot light on”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   INK = Red"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   PRINT “Space to stop movement &amp; switch light"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" off”"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ENDPROC"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="We also need to add a call to "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="PROC DisplayInstructions"/>
+            <ITEXT CH=". Add this to the start of the program. The grey text is what you should already have:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Mid Grey" CH=" CLS"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Mid Grey" CH=" PROC ResetArm"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" PROC DisplayInstructions"/>
+            <para PARENT="Code"/>
             <ITEXT CH=" "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="As you will have come to expect, FUZE BASIC will leap into action and present you with the Ready&gt; prompt."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="First of all straighten the robot arm a bit so it’s not all folded up."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="See [Pic 2].  Don’t worry if the arm clicks here and there this is just"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="the gears clicking and nothing actually breaking."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Type in;"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="ArmBody (1)"/>
+            <ITEXT FCOLOR="Mid Grey" CH="END"/>
             <para PARENT="Code"/>
-            <ITEXT CH="ArmBody (-1)"/>
             <para PARENT="Code"/>
-            <ITEXT CH="ArmBody (0)"/>
-            <para PARENT="Code"/>
+            <ITEXT CH="You should have something similar to the picture below."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Warning: These commands will set the robot arm moving as soon as you press enter.  If you don’t type the next command the arm will go as far as it can and start clicking - you should enter the"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="ArmBody (0) command to stop it."/>
+            <ITEXT CH="When you press &lt;F3&gt; to run the program, you should see something like the following picture."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If at this point you get an error stating “unable to find Robot Arm” or similar then exit FUZE BASIC using Exit - press Enter"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <ITEXT CH="New commands"/>
+            <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Unplug the Arm and reconnect it again.  Also please make sure the Arm is switched on [Pic 3].  Start FUZE BASIC again try the above again.  If at this point it doesn’t work, seek help from an adult or if you are an adult, from a child. On the basis things did work, try the same with these other control commands;"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="ArmShoulder (x) - x can be 1, -1 or 0"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmElbow (x) - x can be 1, -1 or 0"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmWrist (x) - x can be 1, -1 or 0"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmGripper (x) - x can be 1, -1 or 0"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmLight (x) - x can be 1 or 0"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="A useful trick to know at this point is that you can repeat the last command by pressing the up arrow key and then just edit the number. Remember though, you still need to press enter."/>
+            <ITEXT CH="We have introduced some new commands which deserve a brief explanation."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Let’s put some of this new found knowledge into action. Press F2 to enter the Editor.  If there’s another program listed then make sure it isn’t needed and then press F12 to clear it."/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="PROC"/>
+            <ITEXT CH=" command, as used in "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="PROC DisplayInstructions"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="PROC ResetArm"/>
+            <ITEXT CH=", is short for Procedure. The command tells the program to jump to the part of the program labelled "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="DEF PROC “procedure name”"/>
+            <ITEXT CH="; in this case "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="DisplayInstructions"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="ResetArm"/>
+            <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Start with the following lines of code;"/>
+            <ITEXT CH="The end of the procedure is defined by the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="ENDPROC"/>
+            <ITEXT CH=" or End Procedure command at which point the program will return to where it was called from."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Press F3 to run the program.  You will be prompted for a file name.  Best to name it something like “JSrobot” where JS is your initials so you don’t overwrite someone else’s program."/>
+            <ITEXT CH="Procedures help keep a program tidy as we can place routines and functions away from the main program. They also allow us to reuse the same routine many times with a single command. The "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="ResetArm"/>
+            <ITEXT CH=" procedure for example can be used at any point to turn everything off just by calling "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="PROC ResetArm"/>
+            <ITEXT CH=". It is important to grasp this as we will be using them later."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The purpose of this section is to make sure the Arm can be instructed to switch everything off, so absolutely nothing will happen at this point but we will use this bit a lot later."/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="FONTSCALE"/>
+            <ITEXT CH=" is very straightforward. (1, 1) is normal size whereas (3, 3) is three times width and height and (2, 4) is double width but four times the height.  You can experiment with this in Direct mode."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="CLS"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PROC ResetArm"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="END"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="DEF PROC ResetArm"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmBody (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmShoulder (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmElbow (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmWrist (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmGripper (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmLight (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDPROC"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Edit the program to add the following - the grey text is what you should already have. You can see how it should look in [Pic 4]"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="HVTAB"/>
+            <ITEXT CH=" is also very simple to grasp once explained. H is for Horiziontal and V is for Vertical. The command positions the text cursor at a specified position on the screen so that the next "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="PRINT"/>
+            <ITEXT CH=" command will place the text at that position on the screen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="PROC ResetArm"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PROC DisplayInstructions"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="END"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="DEF PROC ResetArm"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmBody (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmShoulder (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmElbow (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmWrist (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmGripper (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmLight (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDPROC"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="DEF PROC DisplayInstructions"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CLS"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="FONTSCALE (2, 2)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="INK = Red"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “We are the ROBOTS!”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="INK = White"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="HVTAB (0,2)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “Press”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “1 or 2 for Body left &amp; right”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “3 or 4 for Shoulder up &amp; down”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “5 or 6 for Elbow up &amp; down”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “7 or 8 for Wrist up &amp; down”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “9 or 0 for Gripper open &amp; close”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “Enter to turn the Robot light on”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="INK = Red"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PRINT “Space to stop movement &amp; switch light off”"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDPROC"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="We have introduced a couple of new commands deserving a brief explanation."/>
+            <ITEXT CH="Look at the example commands below:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="PROC DisplayInstructions and PROC ResetArm"/>
+            <ITEXT CH=" HVTAB (1, 5)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" PRINT &quot;ROBOT&quot;"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="Notice that the (0, 0) co-ordinates are in the top-left corner when plotting text characters and the size of the grid depends on the width and height of the characters. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="However, when plotting graphics the (0, 0) co-ordinates are in the bottom-left corner and the size of the grid is based on the number of pixels along the width and height of the screen. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body title"/>
+            <ITEXT CH="Take action"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body title"/>
+            <ITEXT CH="We now add the main loop to the start of the program. This will get the robot arm to respond to our commands. There is a lot to add here so please be careful to copy it exactly. Once again you already have the code in grey:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The PROC command is short for Procedure.  The command tells the program to jump to the part of the program labelled DEF PROC “procedure name”; in this case DisplayInstructions and ResetArm."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The end of the procedure is defined by the ENDPROC or End Procedure command at which point the program will return to where it was called from."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Procedures help keep a program really tidy as we can place routines and functions away from the main program.  They also allow us to reuse the same routine many times with a single command.  The ResetArm procedure for example can be used at any point to turn everything off just by using PROC ResetArm. It’s important to grasp this as we will be using them a lot later."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FONTSCALE is very straightforward (1, 1) is normal size whereas (3, 3) is three times width and height and (2, 4) is double width but four times the height.  You can experiment with this in Direct mode."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="HVTAB is also very simple to grasp once explained.  H is for Horiziontal and V is for Vertical.  The command positions the text cursor at a specified position on the screen so that the next PRINT command will place the text at that position on screen. See opposite."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="PROC ResetArm"/>
+            <ITEXT FCOLOR="Mid Grey" CH=" CLS"/>
             <para PARENT="Code"/>
-            <ITEXT CH="PROC DisplayInstructions"/>
+            <ITEXT FCOLOR="Mid Grey" CH=" PROC ResetArm"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Mid Grey" CH=" PROC DisplayInstructions"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="CYCLE"/>
+            <ITEXT CH=" CYCLE"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="Key = Inkey"/>
+            <ITEXT CH=" Key = Inkey"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="SWITCH (Key)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 49"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmBody (1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 50"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmBody (-1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 51"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmShoulder (1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 52"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmShoulder (-1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 53"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmElbow (1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 54"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmElbow (-1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 55"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmWrist (1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 56"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmWrist (-1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 57"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmGripper (1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 48"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmGripper (-1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 32"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="PROC ResetArm"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="CASE 13"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmLight (1)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDCASE"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDSWITCH"/>
+            <ITEXT CH=" SWITCH (Key)"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="REPEAT"/>
+            <ITEXT CH="   CASE 49"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmBody (1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 50"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmBody (-1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 51"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmShoulder (1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 52"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmShoulder (-1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 53"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmElbow (1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 54"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmElbow (-1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 55"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmWrist (1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 56"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmWrist (-1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 57"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmGripper (1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 48"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmGripper (-1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 32"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     PROC ResetArm"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="END"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   CASE 13"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     ArmLight (1)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   ENDCASE"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" ENDSWITCH"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="DEF PROC ResetArm"/>
+            <ITEXT CH=" REPEAT"/>
             <para PARENT="Code"/>
-            <ITEXT CH="ArmBody (0)"/>
             <para PARENT="Code"/>
-            <ITEXT CH="ArmShoulder (0)"/>
+            <ITEXT CH=" "/>
+            <ITEXT FCOLOR="Mid Grey" CH="END"/>
             <para PARENT="Code"/>
-            <ITEXT CH="ArmElbow (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmWrist (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmGripper (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ArmLight (0)"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="ENDPROC"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="So two new things here; firstly the Inkey statement. This is a very useful command indeed.  Please read the opposite page - “More about Inkey”."/>
@@ -713,7 +762,7 @@
             <para PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614174" YPOS="955.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="33" BACKITEM="22">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347091674805" YPOS="955.505615234375" WIDTH="538.588317871094" HEIGHT="730.494384765625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.494 538.588 730.494 538.588 730.494 538.588 730.494 0 730.494 0 730.494 0 730.494 0 730.494 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.494 538.588 730.494 538.588 730.494 538.588 730.494 0 730.494 0 730.494 0 730.494 0 730.494 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="33" BACKITEM="22">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="158.776216225559" WIDTH="612.283464566929" HEIGHT="64.0546498911986" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.123419363952213" LOCALSCY="0.123419363952213" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Fade_effect_002.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="11" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -752,7 +801,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="46" BACKITEM="23">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347115199773" YPOS="1838.39501953125" WIDTH="538.588317871094" HEIGHT="733.416748046875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 733.417 538.588 733.417 538.588 733.417 538.588 733.417 0 733.417 0 733.417 0 733.417 0 733.417 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 733.417 538.588 733.417 538.588 733.417 538.588 733.417 0 733.417 0 733.417 0 733.417 0 733.417 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="46" BACKITEM="23">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="104.36283467826" YPOS="822.77291334252" WIDTH="36.8503937" HEIGHT="36.8503937" RADRECT="0" FRTYPE="1" CLIPEDIT="1" PWIDTH="1.417322835" PCOLOR="Theme" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMCO="16" COCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -843,6 +892,75 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="194.25" YPOS="667.5" WIDTH="166.538024902344" HEIGHT="15" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.fuze.co.uk/resources-2" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 166.538 0 166.538 0 166.538 0 166.538 0 166.538 15 166.538 15 166.538 15 166.538 15 0 15 0 15 0 15 0 15 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 166.538 0 166.538 0 166.538 0 166.538 0 166.538 15 166.538 15 166.538 15 166.538 15 0 15 0 15 0 15 0 15 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="128.347091674805" YPOS="491.25" WIDTH="257.152923583984" HEIGHT="156.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.214294102986654" LOCALSCY="0.214294102986654" LOCALX="0" LOCALY="-13.2278286233004" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="FUZE_T2_SE_6.jpg" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 156.75 257.153 156.75 257.153 156.75 257.153 156.75 0 156.75 0 156.75 0 156.75 0 156.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 156.75 257.153 156.75 257.153 156.75 257.153 156.75 0 156.75 0 156.75 0 156.75 0 156.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="187.874649047852" YPOS="470.25" WIDTH="170.078735351562" HEIGHT="15.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.fuze.co.uk/products/" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text94" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 170.079 0 170.079 0 170.079 0 170.079 0 170.079 15.75 170.079 15.75 170.079 15.75 170.079 15.75 0 15.75 0 15.75 0 15.75 0 15.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 170.079 0 170.079 0 170.079 0 170.079 0 170.079 15.75 170.079 15.75 170.079 15.75 170.079 15.75 0 15.75 0 15.75 0 15.75 0 15.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="611.25" YPOS="414.525578776682" WIDTH="55.685432434082" HEIGHT="48.3070983886719" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.377399206161499" LOCALSCY="0.377399206161499" LOCALX="15.0220012284727" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="fuze icon.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 55.6854 0 55.6854 0 55.6854 0 55.6854 0 55.6854 48.3071 55.6854 48.3071 55.6854 48.3071 55.6854 48.3071 0 48.3071 0 48.3071 0 48.3071 0 48.3071 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 55.6854 0 55.6854 0 55.6854 0 55.6854 0 55.6854 48.3071 55.6854 48.3071 55.6854 48.3071 55.6854 48.3071 0 48.3071 0 48.3071 0 48.3071 0 48.3071 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="411" YPOS="576.75" WIDTH="255.935440063477" HEIGHT="145.483430503071" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.206067182015682" LOCALSCY="0.206067182015682" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Just_the_arm.tif" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 145.483 255.935 145.483 255.935 145.483 255.935 145.483 0 145.483 0 145.483 0 145.483 0 145.483 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 145.483 255.935 145.483 255.935 145.483 255.935 145.483 0 145.483 0 145.483 0 145.483 0 145.483 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347091674805" YPOS="992.599365234375" WIDTH="257.152923583984" HEIGHT="46.1506309509277" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 46.1506 257.153 46.1506 257.153 46.1506 257.153 46.1506 0 46.1506 0 46.1506 0 46.1506 0 46.1506 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 46.1506 257.153 46.1506 257.153 46.1506 257.153 46.1506 0 46.1506 0 46.1506 0 46.1506 0 46.1506 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="273.75" YPOS="1082.59251968504" WIDTH="111" HEIGHT="101.25" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.135" LOCALSCY="0.135" LOCALX="41.994750656168" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Wir_sind_die_Roboter_2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="56" POCOOR="13.6316 15.4222 13.6316 15.4222 14.9298 12.0695 14.9298 12.0695 14.9298 12.0695 14.9298 12.0695 25.9649 6.70525 25.9649 6.70525 25.9649 6.70525 25.9649 6.70525 39.5965 0 39.5965 0 39.5965 0 39.5965 0 111 3.17395 111 3.17395 111 3.17395 111 3.17395 111 100.579 111 100.579 111 100.579 111 100.579 53.2281 101.25 53.2281 101.25 53.2281 101.25 53.2281 101.25 31.807 95.8858 31.807 95.8858 31.807 95.8858 31.807 95.8858 18.1754 87.8394 18.1754 87.8394 18.1754 87.8394 18.1754 87.8394 9.73684 75.7699 9.73684 75.7699 9.73684 75.7699 9.73684 75.7699 0 61.4626 0 61.4626 0 61.4626 0 61.4626 2.23603 32.7291 2.23603 32.7291 2.23603 32.7291 2.23603 32.7291 7.78946 24.8096 7.78946 24.8096 7.78946 24.8096 7.78946 24.8096 9.80553 19.4454 9.80553 19.4454 9.80553 19.4454 9.80553 19.4454 13.6316 15.4222 13.6316 15.4222 " NUMCO="16" COCOOR="5.8421 3.17395 5.8421 3.17395 111 3.17395 111 3.17395 111 3.17395 111 3.17395 111 100.579 111 100.579 111 100.579 111 100.579 5.8421 100.579 5.8421 100.579 5.8421 100.579 5.8421 100.579 5.8421 3.17395 5.8421 3.17395 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347091674805" YPOS="1228.875" WIDTH="257.952758789062" HEIGHT="92.543212890625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="FUZE Red" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="60" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="5.66929133858268" TEXTRA="5.66929133858268" BEXTRA="5.66929133858268" REXTRA="5.66929133858268" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.953 0 257.953 0 257.953 0 257.953 0 257.953 92.5432 257.953 92.5432 257.953 92.5432 257.953 92.5432 0 92.5432 0 92.5432 0 92.5432 0 92.5432 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.953 0 257.953 0 257.953 0 257.953 0 257.953 92.5432 257.953 92.5432 257.953 92.5432 257.953 92.5432 0 92.5432 0 92.5432 0 92.5432 0 92.5432 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" FCOLOR="White" CH="The first known use of the word Robot comes from the Czech Čapek brothers and was used in Karel Čapek’s science fiction play “Rossum's Universal Robots”. The original meaning of the Czech word &quot;Robota&quot; is ”drudgery” or “slave labour”."/>
+            <trail PARENT="Body text"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347091674805" YPOS="1423.46545410156" WIDTH="257.152923583984" HEIGHT="71.2845458984375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 71.2845 257.153 71.2845 257.153 71.2845 257.153 71.2845 0 71.2845 0 71.2845 0 71.2845 0 71.2845 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 71.2845 257.153 71.2845 257.153 71.2845 257.153 71.2845 0 71.2845 0 71.2845 0 71.2845 0 71.2845 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.961251807025" YPOS="978.426147460938" WIDTH="257.152923583984" HEIGHT="163.823852539062" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 163.824 257.153 163.824 257.153 163.824 257.153 163.824 0 163.824 0 163.824 0 163.824 0 163.824 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 163.824 257.153 163.824 257.153 163.824 257.153 163.824 0 163.824 0 163.824 0 163.824 0 163.824 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.961242675781" YPOS="1329.92224121094" WIDTH="257.152923583984" HEIGHT="266.077758789062" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 266.078 257.153 266.078 257.153 266.078 257.153 266.078 0 266.078 0 266.078 0 266.078 0 266.078 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 266.078 257.153 266.078 257.153 266.078 257.153 266.078 0 266.078 0 266.078 0 266.078 0 266.078 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347091674805" YPOS="1839.30798339844" WIDTH="257.152923583984" HEIGHT="58.1920166015625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 58.192 257.153 58.192 257.153 58.192 257.153 58.192 0 58.192 0 58.192 0 58.192 0 58.192 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 58.192 257.153 58.192 257.153 58.192 257.153 58.192 0 58.192 0 58.192 0 58.192 0 58.192 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347091674805" YPOS="1941.75" WIDTH="257.152923583984" HEIGHT="218.107165317377" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.30504498645787" LOCALSCY="0.30504498645787" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Wir_sind_die_Roboter_3.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 218.107 257.153 218.107 257.153 218.107 257.153 218.107 0 218.107 0 218.107 0 218.107 0 218.107 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 218.107 257.153 218.107 257.153 218.107 257.153 218.107 0 218.107 0 218.107 0 218.107 0 218.107 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="411" YPOS="2253.83267716534" WIDTH="255.935440063477" HEIGHT="245.893434461834" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.271405556801142" LOCALSCY="0.271405556801142" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Wir_sind_die_Roboter_5.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 245.893 255.935 245.893 255.935 245.893 255.935 245.893 0 245.893 0 245.893 0 245.893 0 245.893 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 245.893 255.935 245.893 255.935 245.893 255.935 245.893 0 245.893 0 245.893 0 245.893 0 245.893 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="410.677795410156" YPOS="2210.07969269038" WIDTH="257.152923583984" HEIGHT="36.8553466796875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 36.8553 257.153 36.8553 257.153 36.8553 257.153 36.8553 0 36.8553 0 36.8553 0 36.8553 0 36.8553 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 36.8553 257.153 36.8553 257.153 36.8553 257.153 36.8553 0 36.8553 0 36.8553 0 36.8553 0 36.8553 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.630554199219" YPOS="2898.75" WIDTH="257.152923583984" HEIGHT="554.255859375" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 554.256 257.153 554.256 257.153 554.256 257.153 554.256 0 554.256 0 554.256 0 554.256 0 554.256 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 554.256 257.153 554.256 257.153 554.256 257.153 554.256 0 554.256 0 554.256 0 554.256 0 554.256 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.630556241734" YPOS="2209.5" WIDTH="256.402923583984" HEIGHT="133.273167972774" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.281761454487895" LOCALSCY="0.281761454487895" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Wir_sind_die_Roboter_4.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 133.273 256.403 133.273 256.403 133.273 256.403 133.273 0 133.273 0 133.273 0 133.273 0 133.273 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 133.273 256.403 133.273 256.403 133.273 256.403 133.273 0 133.273 0 133.273 0 133.273 0 133.273 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="410.632904052734" YPOS="2719.8837890625" WIDTH="257.152923583984" HEIGHT="129.3662109375" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 129.366 257.153 129.366 257.153 129.366 257.153 129.366 0 129.366 0 129.366 0 129.366 0 129.366 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 129.366 257.153 129.366 257.153 129.366 257.153 129.366 0 129.366 0 129.366 0 129.366 0 129.366 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
