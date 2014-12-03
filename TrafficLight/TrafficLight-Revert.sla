@@ -21,7 +21,7 @@
         <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
         <COLOR NAME="Registration" CMYK="#ffffffff" Spot="0" Register="1"/>
         <COLOR NAME="Rich Black" CMYK="#996666ff" Spot="0" Register="0"/>
-        <COLOR NAME="Theme" RGB="#dc4d00" Spot="0" Register="0"/>
+        <COLOR NAME="Theme" CMYK="#ff000000" Spot="0" Register="0"/>
         <COLOR NAME="Warm Black" CMYK="#00994cff" Spot="0" Register="0"/>
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
@@ -33,27 +33,24 @@
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <STYLE NAME="Copy of Body text (1)" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
-        <STYLE NAME="Copy of Code (1)" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
-        <STYLE NAME="Copy of Body text (2)" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
-        <STYLE NAME="Copy of Code (2)" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
-        <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
+        <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <LAYERS NUMMER="0" LEVEL="5" NAME="Header_and_footer" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <LAYERS NUMMER="8" LEVEL="6" NAME="Page_Number_Right" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#5500ff"/>
         <LAYERS NUMMER="7" LEVEL="7" NAME="Page_Number_Left" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#55557f"/>
         <LAYERS NUMMER="2" LEVEL="8" NAME="Level_Of_Difficulty" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="3" LEVEL="9" NAME="Author_Information" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff3856"/>
-        <LAYERS NUMMER="4" LEVEL="10" NAME="Header_Title" SICHTBAR="0" DRUCKEN="0" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00aaff"/>
+        <LAYERS NUMMER="4" LEVEL="10" NAME="Header_Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00aaff"/>
         <LAYERS NUMMER="5" LEVEL="11" NAME="Non_Header_Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff00ff"/>
         <LAYERS NUMMER="6" LEVEL="12" NAME="Article_Text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffff00"/>
         <LAYERS NUMMER="11" LEVEL="2" NAME="Effect : Header_Fade 002" SICHTBAR="0" DRUCKEN="0" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ffff"/>
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
         <LAYERS NUMMER="13" LEVEL="13" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Liberation Sans Bold"/>
             <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Regular"/>
@@ -95,7 +92,16 @@
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="901.890708661418" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" NUM="1" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="19.8425 575.433 " HorizontalGuides="19.8425 822.047 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="1783.78015748032" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" NUM="2" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="19.8425 575.433 " HorizontalGuides="19.8425 822.047 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="2665.66960629921" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" NUM="3" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="19.8425 575.433 " HorizontalGuides="19.8425 822.047 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="48.8739526562759" WIDTH="612.283464566929" HEIGHT="166.191314259943" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.24" LOCALSCY="0.24" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon141" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="traffic_light_header.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 166.191 612.283 166.191 612.283 166.191 612.283 166.191 0 166.191 0 166.191 0 166.191 0 166.191 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 166.191 612.283 166.191 612.283 166.191 612.283 166.191 0 166.191 0 166.191 0 166.191 0 166.191 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="104.36283467826" YPOS="1704.66236216142" WIDTH="36.8503937" HEIGHT="36.8503937" RADRECT="0" FRTYPE="1" CLIPEDIT="1" PWIDTH="1.417322835" PCOLOR="Theme" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMCO="16" COCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="104.363149606299" YPOS="1716.00094486142" WIDTH="36.8503937007874" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="4"/>
+            <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="48.8739526562759" WIDTH="612.283464566929" HEIGHT="166.191314259943" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.0675" LOCALSCY="0.0675" LOCALX="839.89501312336" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon141" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="traffic_light_dan_gerhar_01.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 166.191 612.283 166.191 612.283 166.191 612.283 166.191 0 166.191 0 166.191 0 166.191 0 166.191 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 166.191 612.283 166.191 612.283 166.191 612.283 166.191 0 166.191 0 166.191 0 166.191 0 166.191 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -132,7 +138,16 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="654.284409448819" YPOS="1716.00094486142" WIDTH="36.8503937007874" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="8" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="5"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="4"/>
+            <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="654.28409452126" YPOS="822.77291334252" WIDTH="36.8503937" HEIGHT="36.8503937" RADRECT="0" FRTYPE="1" CLIPEDIT="1" PWIDTH="1.417322835" PCOLOR="Theme" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMCO="16" COCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="8" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="654.284409448819" YPOS="834.11149604252" WIDTH="36.8503937007874" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="8" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="4"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -174,13 +189,18 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.1443" LOCALSCY="0.1443" LOCALX="-550.035195704487" LOCALY="-628.6116522337" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="author.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.1343" LOCALSCY="0.1343" LOCALX="-358.815907505233" LOCALY="-569.884088390664" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="author.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="518.116535433071" YPOS="270.4604398775" WIDTH="138.968503937008" HEIGHT="35.3877165354331" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 138.969 0 138.969 0 138.969 0 138.969 0 138.969 35.3877 138.969 35.3877 138.969 35.3877 138.969 35.3877 0 35.3877 0 35.3877 0 35.3877 0 35.3877 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 138.969 0 138.969 0 138.969 0 138.969 0 138.969 35.3877 138.969 35.3877 138.969 35.3877 138.969 35.3877 0 35.3877 0 35.3877 0 35.3877 0 35.3877 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="11.2678555855936" gYpos="142.796616357756" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FCOLOR="White" CH="Brian Grawburg "/>
             <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="522.368642973826" YPOS="287.25" WIDTH="130.464288855498" HEIGHT="41.7276377952756" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 41.7276 130.464 41.7276 130.464 41.7276 130.464 41.7276 0 41.7276 0 41.7276 0 41.7276 0 41.7276 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 41.7276 130.464 41.7276 130.464 41.7276 130.464 41.7276 0 41.7276 0 41.7276 0 41.7276 0 41.7276 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="11.2678555411184" gYpos="161.177334178346" gWidth="153" gHeight="193.248031453543" ALIGN="1" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="14" FCOLOR="White" CH="Guest Writer"/>
+            <trail PARENT="Body text" ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="409.403149606299" YPOS="61.2148031496063" WIDTH="324.971220472441" HEIGHT="51.6727559055118" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0.4" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 316.467 0 316.467 0 316.467 0 321.164 0 324.971 8.50394 324.971 3.80734 324.971 8.50394 324.971 8.50394 324.971 43.1688 324.971 43.1688 324.971 43.1688 324.971 47.8654 316.467 51.6728 321.164 51.6728 316.467 51.6728 316.467 51.6728 8.50394 51.6728 8.50394 51.6728 8.50394 51.6728 3.80734 51.6728 0 43.1688 0 47.8654 0 43.1688 0 43.1688 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 324.971 0 324.971 0 324.971 0 324.971 0 324.971 51.6728 324.971 51.6728 324.971 51.6728 324.971 51.6728 0 51.6728 0 51.6728 0 51.6728 0 51.6728 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -197,7 +217,13 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="362.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="35" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="220.080703735352" WIDTH="375.777221679688" HEIGHT="75.4192962646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <para LINESP="28"/>
+            <ITEXT FONT="Liberation Sans Bold" FONTSIZE="19" CH="Simulating a Bi-directional Traffic Light "/>
+            <trail PARENT="Body title"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="362.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="41" BACKITEM="-1">
             <ITEXT SCALEH="98" CH="The Imagination Station Science Museum in North Carolina (USA) offers several Raspberry Pi and Python classes and camps. This article is a shortened version of a project given to the students after they've completed about 20 hours a preliminary exposure to the Pi and Python. A previous project introduced the use of an 8 port I/O expander (MCP23008) and provided sufficient background in binary and hexadecimal numbering to enable them to complete this project on their own. New to this project was the CD74AC02 Quadruple 2-input NOR gate IC and the use of two MCP23017 chips (16 I/O ports each)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -223,9 +249,7 @@
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="13" CH="One of the more f"/>
-            <ITEXT FONTSIZE="12" CH="rustrating aspects of this project was trying to incorporate the left-turn option into the Python code.  No doubt there was a way to do it but I couldn't figure it out (I saw one possible way, but it required a lot of code). Here's where being part of a user group can really make a difference. I'm active in the Triangle Embedded Devices group ("/>
-            <ITEXT FONTSIZE="12" FCOLOR="Blue" FSHADE="100" CH="www.triembed.org"/>
-            <ITEXT FONTSIZE="12" CH=") and posted a series of emails to the group; got a great answer that I'm using here."/>
+            <ITEXT FONTSIZE="12" CH="rustrating aspects of this project was trying to incorporate the left-turn option into the Python code.  No doubt there was a way to do it but I couldn't figure it out (I saw one possible way, but it required a lot of code). Here's where being part of a user group can really make a difference. I'm active in the Triangle Embedded Devices group (www.triembed.org) and posted a series of emails to the group; got a great answer that I'm using here."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The “problem”: As the lights were cycling through I wanted to push a button to simulate a car pulling into the left turn-only lane which then activates something to tell the program “there's a car that wants to turn so when you're finished with the normal cycle run the left turn cycle.”  Back in 2010/2011 I took a year-long course at a local community college on programming PLCs (Programmable Logic Controllers). One of the basic functions is latching an output, meaning that when it is set high it would remain high until specifically set low by the program.  That's what I was trying to do within the Python code."/>
@@ -268,15 +292,13 @@
             <ITEXT CH="The Python code I suggested to the students followed the pattern they had already encountered in previous classes. It was straighforward and easy to understand.  A future large-scale project will be to recreate a small portion of the street that runs past the Imagination Station Science Museum with several intersections and a train crossing. The ultimate goal being to synchronize the lights for morning traffic (into town) and evening traffic (away from town)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="The Code."/>
+            <ITEXT FONTSIZE="14" CH="The Code."/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The following page shows a sample Python script that can demonstrate the system. Much of the script is about defining labels that refer to the various ports or values we latter poke into those ports. Using labels (or constants, variables) like this is always a good idea as it makes the actual code much easier to read and modify."/>
+            <ITEXT CH="On the next page you will see a typical Python script demonstrating how this system can be made to work. Most of the script is about setting up labels for the various hardware ports and values we will be poking into them. Using labels (or call them constants, variables as you like) is always a good idea, it makes the actual functional part of the code a lot easier to use."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The full project manual, including the Python code, can be downloaded from the Triangle Embedded Devices Web page: "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://triembed.org/blog/?page_id=658"/>
-            <ITEXT CH="."/>
+            <ITEXT CH="The full project manual, including the Python code, can be downloaded from the Triangle Embedded Devices Web page: http://triembed.org/blog/?page_id=658."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Oblique" CH="Brian Grawburg is from the Imagination Station Science &amp; History Museum, Wilson, NC  (USA)"/>
@@ -323,7 +345,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086570867" YPOS="943.410393700788" WIDTH="538.5883465" HEIGHT="750.089606299212" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 750.09 538.588 750.09 538.588 750.09 538.588 750.09 0 750.09 0 750.09 0 750.09 0 750.09 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 750.09 538.588 750.09 538.588 750.09 538.588 750.09 0 750.09 0 750.09 0 750.09 0 750.09 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="42" BACKITEM="24">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086570867" YPOS="943.410393700788" WIDTH="538.5883465" HEIGHT="750.089606299212" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 750.09 538.588 750.09 538.588 750.09 538.588 750.09 0 750.09 0 750.09 0 750.09 0 750.09 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 750.09 538.588 750.09 538.588 750.09 538.588 750.09 0 750.09 0 750.09 0 750.09 0 750.09 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="50" BACKITEM="30">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="91.49952755926" YPOS="1775.27622047232" WIDTH="612.2834646" HEIGHT="36.8503937" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -342,16 +364,25 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="654.28409452126" YPOS="2586.55181098032" WIDTH="36.8503937" HEIGHT="36.8503937" RADRECT="0" FRTYPE="1" CLIPEDIT="1" PWIDTH="1.417322835" PCOLOR="Theme" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMCO="16" COCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="8" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="654.28440942126" YPOS="2597.89039368032" WIDTH="36.8503937" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="8" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="4"/>
+            <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="104.36283467826" YPOS="2586.55181098032" WIDTH="36.8503937" HEIGHT="36.8503937" RADRECT="0" FRTYPE="1" CLIPEDIT="1" PWIDTH="1.417322835" PCOLOR="Theme" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMCO="16" COCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="104.36314960626" YPOS="2597.89039368032" WIDTH="36.8503937" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="6"/>
-            <trail/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="4"/>
+            <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708657126" YPOS="1826.29984251678" WIDTH="538.5883465" HEIGHT="760.450157483223" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 760.45 538.588 760.45 538.588 760.45 538.588 760.45 0 760.45 0 760.45 0 760.45 0 760.45 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 760.45 538.588 760.45 538.588 760.45 538.588 760.45 0 760.45 0 760.45 0 760.45 0 760.45 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="35">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708657126" YPOS="1826.29984251678" WIDTH="538.5883465" HEIGHT="760.450157483223" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 760.45 538.588 760.45 538.588 760.45 538.588 760.45 0 760.45 0 760.45 0 760.45 0 760.45 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 760.45 538.588 760.45 538.588 760.45 538.588 760.45 0 760.45 0 760.45 0 760.45 0 760.45 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="41">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="411.28251968504" YPOS="1827.77228346457" WIDTH="255.652913385827" HEIGHT="246.614173228346" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.0968253526613058" LOCALSCY="0.0968253526613058" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="MyPiShop.JPG" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 246.614 255.653 246.614 255.653 246.614 255.653 246.614 0 246.614 0 246.614 0 246.614 0 246.614 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 246.614 255.653 246.614 255.653 246.614 255.653 246.614 0 246.614 0 246.614 0 246.614 0 246.614 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -383,238 +414,221 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="654.28440942126" YPOS="3479.77984249921" WIDTH="36.8503937" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="8" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="7"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="4"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708657126" YPOS="2708.18929133921" WIDTH="538.5883465" HEIGHT="760.4501575" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="12" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 760.45 538.588 760.45 538.588 760.45 538.588 760.45 0 760.45 0 760.45 0 760.45 0 760.45 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 760.45 538.588 760.45 538.588 760.45 538.588 760.45 0 760.45 0 760.45 0 760.45 0 760.45 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" #!/usr/bin/"/>
-            <ITEXT CH="env python"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" import smbus"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" import time"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" bus = smbus.SMBus(1)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" address1   = 0x21"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" address2   = 0x20"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" IODIRA     = 0x00"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" IODIRB     = 0x01"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" GPIOA      = 0x12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" GPIOB      = 0x13"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" OLATA      = 0x14"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" OLATB      = 0x15"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT CH=" light_on   = 5"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="# Straight lights"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT CH=" both_red   = 1"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT CH=" left_on    = 4     "/>
-            <tab/>
-            <ITEXT CH="# Left lights"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" io_setting = ["/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="[0,0,0],"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="# Reset: all off, no delay"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="[0x30,0x24,"/>
-            <ITEXT CH="light_on"/>
-            <ITEXT FONTSIZE="10" CH="],"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="# Straight East Green, North Red, L-turns Red"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="[0x28,0x24,"/>
-            <ITEXT CH="light_on"/>
-            <ITEXT FONTSIZE="10" CH="],"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="# Straight East Amber, North Red"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="[0x24,0x24,"/>
-            <ITEXT CH="both_red"/>
-            <ITEXT FONTSIZE="10" CH="],"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="# East &amp; North Red, L-turns Red"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="[0x84,0x24,"/>
-            <ITEXT CH="light_on"/>
-            <ITEXT FONTSIZE="10" CH="],"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="# North Green, East Red"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="[0x44,0x24,"/>
-            <ITEXT CH="light_on"/>
-            <ITEXT FONTSIZE="10" CH="],"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="# North Amber, East Red"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="[0x24,0x09,"/>
-            <ITEXT CH="left_on"/>
-            <ITEXT FONTSIZE="10" CH="],"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="# Both L-turns Green, Straights Red"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="[0x24,0x12,"/>
-            <ITEXT CH="left_on"/>
-            <ITEXT FONTSIZE="10" CH="]"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="# Both L-turns Amber"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" ]"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" def cycle(index):"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" "/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="bus.write_byte_data(address1,OLATA,io_setting[index][0])"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="   "/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="bus.write_byte_data(address1,OLATB,io_setting[index][1])"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="   "/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="time.sleep(io_setting[index][2])"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" bus.write_byte_data(address1,IODIRA,0x00)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" bus.write_byte_data(address1,IODIRB,0x00)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" bus.write_byte_data(address2,IODIRA,0x03)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" cycle(0)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" bus.write_byte_data(address2,OLATA,0x00)"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" try:"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="while True:"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="     "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="buttonPressed=bus.read_byte_data(address2,GPIOA)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="     "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="if buttonPressed == 0:"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="       "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="cycle(1); cycle(2); "/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="       "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="cycle(3); cycle(4); "/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="       "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="cycle(5); cycle(3)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="     "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="else:"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="       "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="cycle(6); cycle(7); cycle(3)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="       "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="bus.write_byte_data(address2,OLATA,0x18)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="       "/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="bus.write_byte_data(address2,OLATA,0x00)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <tab FONTSIZE="10"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" except KeyboardInterrupt:"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH=" "/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="cycle(0)"/>
-            <para PARENT="Code" LINESP="12"/>
-            <ITEXT FONTSIZE="10" CH="   "/>
-            <tab FONTSIZE="10"/>
-            <ITEXT FONTSIZE="10" CH="bus.write_byte_data(address2,OLATA,0x00)"/>
-            <tab FONTSIZE="9"/>
-            <tab FONTSIZE="9"/>
-            <para PARENT="Code" LINESP="12"/>
-            <para LINESP="12"/>
-            <para LINESP="12"/>
-            <para LINESP="12"/>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="104.36283467826" YPOS="3468.44125979921" WIDTH="36.8503937" HEIGHT="36.8503937" RADRECT="0" FRTYPE="1" CLIPEDIT="1" PWIDTH="1.417322835" PCOLOR="Theme" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMCO="16" COCOOR="36.8504 18.4252 36.8504 28.6015 18.4252 36.8504 28.6015 36.8504 18.4252 36.8504 8.24924 36.8504 0 18.4252 0 28.6015 0 18.4252 0 8.24924 18.4252 0 8.24924 0 18.4252 0 28.6015 0 36.8504 18.4252 36.8504 8.24924 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="104.36314960626" YPOS="3479.77984249921" WIDTH="36.8503937" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="4"/>
+            <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708657126" YPOS="2708.18929133921" WIDTH="538.5883465" HEIGHT="760.4501575" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="12" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 760.45 538.588 760.45 538.588 760.45 538.588 760.45 0 760.45 0 760.45 0 760.45 0 760.45 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 760.45 538.588 760.45 538.588 760.45 538.588 760.45 0 760.45 0 760.45 0 760.45 0 760.45 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="#!/usr/bin/python"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="import smbus"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="import time"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus = smbus.SMBus(1)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="address1 "/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="= 0x21"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="address2 "/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="= 0x20"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="IODIRA"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="= 0x00"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="IODIRB"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="= 0x01"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="GPIOA "/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="= 0x12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="GPIOB"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="= 0x13"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="OLATA"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="= 0x14"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="OLATB"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="= 0x15"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="light_on = 5    # Straight lights"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="both_red = 1"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="left_on = 4     # Left lights"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="io_setting = ["/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="[0,0,0],"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="# Reset: all off, no delay"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="[0x30,0x24, light_on],"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="# Straight East Green, North Red, L-turns Red"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="[0x28,0x24, light_on],"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="# Straight East Amber, North Red"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="[0x24,0x24, both_red],"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="# East &amp; North Red, L-turns Red"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="[0x84,0x24, light_on],"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="# North Green, East Red"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="[0x44,0x24, light_on],"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="# North Amber, East Red"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="[0x24,0x09, left_on],"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="# Both L-turns Green, Straights Red"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="[0x24,0x12, left_on]"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="# Both L-turns Amber"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="     ]"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="def cycle(index):"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address1,OLATA,io_setting[index][0])"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address1,OLATB,io_setting[index][1])"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="time.sleep(io_setting[index][2])"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address1,IODIRA,0x00)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address1,IODIRB,0x00)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address2,IODIRA,0x03)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="cycle(0)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address2,OLATA,0x00)"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="try:"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="while True:"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="buttonPressed=bus.read_byte_data(address2,GPIOA)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="if buttonPressed == 0:"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="cycle(1); cycle(2); "/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="cycle(3); cycle(4); "/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="cycle(5); cycle(3)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="else:"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="cycle(6); cycle(7); cycle(3)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address2,OLATA,0x18)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address2,OLATA,0x00)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="except KeyboardInterrupt:"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="cycle(0)"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <tab FONTSIZE="10" SCALEV="100"/>
+            <ITEXT FONTSIZE="10" SCALEV="100" CH="bus.write_byte_data(address2,OLATA,0x00)"/>
+            <tab FONTSIZE="12" SCALEV="100"/>
+            <tab FONTSIZE="12" SCALEV="100"/>
+            <para PARENT="Code" LINESPMode="0" LINESP="12"/>
+            <para LINESPMode="0" LINESP="12"/>
             <ITEXT FONT="FreeSans Bold" CH="Sample code to demonstrate the Traffic Light Syste"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="m"/>
-            <trail LINESP="12"/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="522.36864302126" YPOS="301.59662554252" WIDTH="130.4642889" HEIGHT="18.38071782" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 18.3807 130.464 18.3807 130.464 18.3807 130.464 18.3807 0 18.3807 0 18.3807 0 18.3807 0 18.3807 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 18.3807 130.464 18.3807 130.464 18.3807 130.464 18.3807 0 18.3807 0 18.3807 0 18.3807 0 18.3807 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="12" FCOLOR="White" CH="Guest Writer"/>
-            <trail ALIGN="1"/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.34709167126" YPOS="220.08070374252" WIDTH="375.7772217" HEIGHT="75.41929626" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <para LINESP="28"/>
-            <ITEXT CH="Simulating a bi-directional traffic light"/>
-            <trail LINESP="28"/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="411" YPOS="2498.11086614173" WIDTH="200.25" HEIGHT="15.8891338582666" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://triembed.org/blog/?page_id=658" ANZIEL="2" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text63" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 200.25 0 200.25 0 200.25 0 200.25 0 200.25 15.8891 200.25 15.8891 200.25 15.8891 200.25 15.8891 0 15.8891 0 15.8891 0 15.8891 0 15.8891 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 200.25 0 200.25 0 200.25 0 200.25 0 200.25 15.8891 200.25 15.8891 200.25 15.8891 200.25 15.8891 0 15.8891 0 15.8891 0 15.8891 0 15.8891 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="1137.1662992126" WIDTH="102.652913385827" HEIGHT="14.8337007874011" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="www.triembed.org" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text64" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 102.653 0 102.653 0 102.653 0 102.653 0 102.653 14.8337 102.653 14.8337 102.653 14.8337 102.653 14.8337 0 14.8337 0 14.8337 0 14.8337 0 14.8337 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 102.653 0 102.653 0 102.653 0 102.653 0 102.653 14.8337 102.653 14.8337 102.653 14.8337 102.653 14.8337 0 14.8337 0 14.8337 0 14.8337 0 14.8337 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
+            <trail LINESPMode="0" LINESP="12"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
