@@ -141,7 +141,7 @@
             <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Campus Alt-Saarbrücken, Goebenstraße 40, 66117 Saarbrücken, Germany  "/>
             <para PARENT="Body Text Cent"/>
             <para ALIGN="1"/>
-            <ITEXT FONT="FreeSans Regular" CH="Pi and More is the first and largest german Raspberry Jam, with up to 150 attendees"/>
+            <ITEXT FONT="FreeSans Regular" CH="Pi and More is the first and largest German Raspberry Jam, with up to 150 attendees"/>
             <ITEXT CH="."/>
             <para ALIGN="1"/>
             <ITEXT FONT="FreeSans Regular" CH=" Event details at "/>
