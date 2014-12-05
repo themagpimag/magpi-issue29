@@ -15,13 +15,13 @@
         <COLOR NAME="FromSVG#cccccc" RGB="#cccccc" Spot="0" Register="0"/>
         <COLOR NAME="FromSVG#e6e6e6" RGB="#e6e6e6" Spot="0" Register="0"/>
         <COLOR NAME="FromSVG#ea265c" RGB="#ea265c" Spot="0" Register="0"/>
-        <COLOR NAME="Green" RGB="#00ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Green" RGB="#00b200" Spot="0" Register="0"/>
         <COLOR NAME="Magenta" CMYK="#00ff0000" Spot="0" Register="0"/>
         <COLOR NAME="Magpi Pink" RGB="#bc1142" Spot="0" Register="0"/>
         <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
         <COLOR NAME="Registration" CMYK="#ffffffff" Spot="0" Register="1"/>
         <COLOR NAME="Rich Black" CMYK="#996666ff" Spot="0" Register="0"/>
-        <COLOR NAME="Theme" RGB="#dc4d00" Spot="0" Register="0"/>
+        <COLOR NAME="Theme" RGB="#239820" Spot="0" Register="0"/>
         <COLOR NAME="Warm Black" CMYK="#00994cff" Spot="0" Register="0"/>
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
