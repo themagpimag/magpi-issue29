@@ -28,14 +28,14 @@
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <COLOR NAME="openelectrons green" RGB="#99cc99" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -185,8 +185,8 @@
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="223.5" WIDTH="375.777221679688" HEIGHT="72.0000000000004" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 72 375.777 72 375.777 72 375.777 72 0 72 0 72 0 72 0 72 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 72 375.777 72 375.777 72 375.777 72 0 72 0 72 0 72 0 72 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para LINESP="28"/>
-            <ITEXT CH="File systems, incremental backups and NAS"/>
-            <trail LINESP="28"/>
+            <ITEXT CH="Part 1: File systems, partition tables and rsync"/>
+            <trail PARENT="Content description" LINESP="28"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="23" BACKITEM="-1">
@@ -199,7 +199,7 @@
             <ITEXT CH="Instead of using an external repository, it is possible to back up a complete SD card. This type of backup operation was discussed in Issue 10 of The MagPi.  The complete backup of an SD card is not as quick as using an external repository, but allows the posibility of saving larger files. While files can be recovered from a SD card image by re-installing a SD card or by mounting the image on another disk, it is not very convienent for single file recovery and does not allow direct file access on non-Linux computers."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="When developing software or other applications, unique files are often kept within a users home directory, whereas the other files on an SD card are installed by using a package manager and a set of installation instructions.  This means that most of the SD card can be reinstalled by using a basic image such as Raspbian and a script that contains package installation commands (apt-get, pip install, etc.).  The rest of this artcle assumes that the latest Raspbian Linux image has been installed on the client Raspberry Pi, but should work for other Linux distributions too."/>
+            <ITEXT CH="When developing software or other applications, unique files are often kept within a users home directory, whereas the other files on an SD card are installed by using a package manager and a set of installation instructions.  This means that most of the SD card can be reinstalled by using a basic image such as Raspbian and a script that contains package installation commands (apt-get, pip install, etc.).  The rest of this artcle assumes that the latest Raspbian Linux image has been installed on the client Raspberry Pi.  However, the instructions should be valid for other Linux distributions too."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="File system considerations"/>
@@ -208,14 +208,13 @@
             <ITEXT CH="There are several file systems that could be used to store files from a Raspberry Pi.  However, some are more suitable than others. For example, a USB memory key is typically formatted using the FAT32 file system. While accessable on many different operating systems, this file system does not allow Linux file permissions to be preserved.  However, file creation time can be retained.  For this reason, the FAT32 file system is not suitable to be used as a home directory, but could be used to backup files.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="New external hard disks are often formatted with the NTFS file system. A better choice would be to use EXT4, ZFS or OSX file systems, which allow the file permissions to be preserved."/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="New external hard disks are often formatted with the NTFS file system.  The EXT4, ZFS or OSX file systems are more appropriate for saving files from a Raspberry Pi,  since these file systems allow the file permission information to be preserved in the backup directory structure."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Mounting a USB key"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="USB memory keys are cheap and can be connected directly to a Raspberry Pi, via a USB hub or from a remote Raspberry Pi or other computer on the same network.  USB keys provide a cheap backup solution, but can fail if used for a large number of backup operations. "/>
+            <ITEXT CH="USB memory keys are cheap and can be connected directly to a Raspberry Pi, via a USB hub or from a remote Raspberry Pi or other computer on the same network.  They provide an inexpensive backup solution, but can fail if used for a large number of file writing operations. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="When a USB device is attached to a Raspberry Pi that is running Raspbian it will cause a message to be printed in the "/>
@@ -223,7 +222,7 @@
             <ITEXT CH=" file. While the kernel in Raspbian recognises a large number of USB devices, it does not automatically mount storage devices.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Before attaching a USB key, open an LXTerminal and type"/>
+            <ITEXT CH="Before attaching a USB key, open an LXTerminal and type:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" sudo tail -f /var/log/messages"/>
@@ -250,7 +249,11 @@
             <ITEXT CH="A storage device cannot be directly mounted and needs to have at least one partition. A new USB key or hard disk will typically have only one partition. To use the partition within Linux it has to be mounted. A mounted partition provides storage that is partially in memory and partially on the storage medium. This means that the partition is not as likely to become fragmented, but also means that data can be lost if the storage device is removed without unmounting the device."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The USB key in the example tail output can be mounted as the /mnt directory by typing:"/>
+            <ITEXT CH="The USB key in the example "/>
+            <ITEXT FONT="Monaco Regular" CH="tail"/>
+            <ITEXT CH=" output can be mounted as the "/>
+            <ITEXT FONT="Monaco Regular" CH="/mnt"/>
+            <ITEXT CH=" directory by typing:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" sudo mount /dev/sda1 /mnt"/>
@@ -262,8 +265,9 @@
             <ITEXT CH=" df -h /mnt"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="After some files have been copied to or from "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="/mnt"/>
+            <ITEXT CH="After some files have been copied to or from"/>
+            <ITEXT FONTSIZE="11" CH=" "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="/mnt"/>
             <ITEXT CH=" the USB file system can be safely unmounted either by shutting down the Raspberry Pi or by typing:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -297,16 +301,22 @@
             <para PARENT="Body text"/>
             <ITEXT CH="From the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="fdisk"/>
-            <ITEXT CH=" prompt, the partition table can be printed by pressing &lt;P&gt; at the prompt. In this case there is only one FAT32 partition that spans the USB key. (In the "/>
+            <ITEXT CH=" prompt, the partition table can be printed by pressing &quot;"/>
+            <ITEXT FONT="Monaco Regular" CH="p"/>
+            <ITEXT CH="&quot; at the prompt. In this case there is only one FAT32 partition that spans the USB key. (In the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="fdisk"/>
             <ITEXT CH=" command "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="/dev/sda"/>
             <ITEXT CH=" should be chosen to match the device, as discussed earlier in this article).  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="For the next part of this example an EXT4 file system will be used. Therefore, the file system type of the first partition should be changed. The partition system id can be changed to match the EXT4 file system by pressing &lt;T&gt; at the "/>
+            <ITEXT CH="For the next part of this example an EXT4 file system will be used. Therefore, the file system type of the first partition should be changed. The partition system id can be changed to match the EXT4 file system by pressing &quot;"/>
+            <ITEXT FONT="Monaco Regular" CH="t"/>
+            <ITEXT CH="&quot; at the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="fdisk"/>
-            <ITEXT CH=" prompt and entering 83:"/>
+            <ITEXT CH=" prompt and entering &quot;"/>
+            <ITEXT FONT="Monaco Regular" CH="83"/>
+            <ITEXT CH="&quot;:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" Command (m for help): t"/>
@@ -314,7 +324,9 @@
             <ITEXT CH=" Hex code (type L to list codes): 83"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The changes made can then be saved to the storage device by pressing &lt;W&gt;:"/>
+            <ITEXT CH="The changes made can then be saved to the storage device by pressing &quot;"/>
+            <ITEXT FONT="Monaco Regular" CH="w"/>
+            <ITEXT CH="&quot;:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" Command (m for help): w"/>
@@ -331,7 +343,9 @@
             <ITEXT CH="Creating an EXT4 file system"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="File systems can only be rebuilt when a file system partition is unmounted. Unlike the fdisk command, only the partition that is to be formated needs to be unmounted. To create an EXT4 file system on the USB key enter:"/>
+            <ITEXT CH="File systems can only be rebuilt when a file system partition is unmounted. Unlike the "/>
+            <ITEXT FONT="Monaco Regular" CH="fdisk"/>
+            <ITEXT CH=" command, only the partition that is to be formated needs to be unmounted. To create an EXT4 file system on the USB key enter:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" sudo mkfs.ext4 /dev/sda1"/>
@@ -425,7 +439,7 @@
             <para PARENT="Body text"/>
             <ITEXT CH="More "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="rsync"/>
-            <ITEXT CH=" commands can be printed by entering "/>
+            <ITEXT CH=" commands can be found in the documentation by entering "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="man rsync"/>
             <ITEXT CH="."/>
             <para PARENT="Body text"/>
@@ -433,16 +447,16 @@
             <ITEXT CH="Rsync to FAT32"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If a USB key is formatted with the FAT32 file system then files cannot be mirrored to it using "/>
+            <ITEXT CH="If a USB key is formatted with the FAT32 file system,  then files cannot be mirrored to it using "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="rsync"/>
             <ITEXT CH=" with the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="-a"/>
-            <ITEXT CH=" flag. While the ownership and file permissions information cannot be preserved on a FAT32 partition, the time stamp information can be preserved.  "/>
+            <ITEXT CH=" flag.  While the ownership and file permissions information cannot be preserved on a FAT32 partition, the time stamp information can be preserved.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Files and directories can be mirrored to a FAT32 or NTFS file system on a USB key or external hard disk by using the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="-rltv"/>
-            <ITEXT CH=" flag combination. Enter:"/>
+            <ITEXT CH=" flag combination.  For example:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" sudo rsync -rltv important /mnt/"/>
@@ -472,7 +486,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1233" WIDTH="256.402913385827" HEIGHT="27" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 27 256.403 27 256.403 27 256.403 27 0 27 0 27 0 27 0 27 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 27 256.403 27 256.403 27 256.403 27 0 27 0 27 0 27 0 27 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1238.66929133858" WIDTH="256.402913385827" HEIGHT="27" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 27 256.403 27 256.403 27 256.403 27 0 27 0 27 0 27 0 27 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 27 256.403 27 256.403 27 256.403 27 0 27 0 27 0 27 0 27 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
