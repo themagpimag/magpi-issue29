@@ -122,7 +122,7 @@
             <ITEXT FONT="FreeSans Regular" CH=" - Chief Editor / Administration"/>
             <para LINESP="13"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Ian McAlpine"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Layout / Proof Reading"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Layout / Testing / Proof Reading"/>
             <para LINESP="13"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="W.H. Bell "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="- Issue Editor / Administration"/>
@@ -139,7 +139,10 @@
             <para LINESP="13"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Colin Deady"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Layout / Proof Reading"/>
-            <trail LINESP="13"/>
+            <para LINESP="13"/>
+            <ITEXT FONT="FreeSans Bold" CH="Aaron Shaw"/>
+            <ITEXT CH=" - Administration"/>
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="5" XPOS="119.276200787402" YPOS="712.303880185076" WIDTH="552.727013817549" HEIGHT="1" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="60" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="0" POCOOR="" NUMCO="0" COCOOR="" NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="19.275570866142" gYpos="18.761811023622" gWidth="612" gHeight="154.175726115318" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -156,16 +159,13 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Testing"/>
             <para/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Nick Liversidge"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Proof Reading"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Layout / Proof Reading"/>
             <para/>
             <ITEXT FONT="FreeSans Bold" CH="Martin Wolstencroft "/>
-            <ITEXT CH="- Layout / Proof Reading"/>
-            <para/>
-            <ITEXT FONT="FreeSans Bold" CH="Mark Pearson"/>
-            <ITEXT CH=" - Layout"/>
+            <ITEXT CH="- Proof Reading"/>
             <para/>
             <ITEXT FONT="FreeSans Bold" CH="David Bannon"/>
-            <ITEXT CH=" - Testing / Proof Reading"/>
+            <ITEXT CH=" - Layout / Proof Reading"/>
             <para/>
             <ITEXT FONT="FreeSans Bold" CH="Shelton Caruthers"/>
             <ITEXT CH=" - Proof Reading"/>
