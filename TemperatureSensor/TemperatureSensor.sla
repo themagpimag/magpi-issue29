@@ -26,14 +26,14 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -207,46 +207,59 @@
             <para PARENT="Body text"/>
             <ITEXT CH="The sensor requires a 4.7kOhmn resistor to connect it to the Raspberry Pi."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The BS18B20 sensor is relatively cheap and is supported by the Linux kernel present in the current Raspbian distribution for the Raspberry Pi.  The data recorded from it is available directly as a temperature value.  Without additional calibration, it is sufficiently accurate for most applications.  It can measure temperature from -55 to 125degC, with a resolution of 9 to 12 bits implying an accuracy of 0.5degC over much of the range."/>
+            <ITEXT CH="The DS18B20 sensor is relatively cheap and is supported by the Linux kernel present in the current Raspbian distribution for the Raspberry Pi.  The data recorded from it is available directly as a temperature value.  Without additional calibration, it is sufficiently accurate for most applications.  It can measure temperature from -55 to 125degC, with a resolution of 9 to 12 bits implying an accuracy of 0.5degC over much of the range."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If you are happy with a soldering iron, making your own sensors using the TO92 packages is easy, cut the DS18B20's leads so there is only about 5mm remaining, solder a lead to each, mix up some epoxy and fill the volume around your solder joints. A sensor made like this is smaller and possibly faster to respond that the more robust commercial ones."/>
+            <ITEXT CH="If you are happy with a soldering iron, making your own sensors using the TO92 packages is easy, cut the DS18B20's leads so there is only about 5mm remaining, solder a lead to each, mix up some epoxy and fill the volume around your solder joints.  A sensor made like this is smaller and possibly faster to respond that the more robust commercial ones."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="But the real beauty of this sensor is how easy it is to use on the Raspberry Pi ! While its called a “1-wire” interface, in practice it needs two and over long runs, three is more reliable. Thats a ground or common connection, a 3.3V supply and one signal wire. To make life easy, we can connect many sensors in parallel using just those three wires. So we are not using up all our GPIO ports. Long wiring runs don't seem a problem and each sensor uses very little power. How good is all this ?"/>
+            <ITEXT CH="The real beauty of the DS18B20 sensor is that it is very easy to use on the Raspberry Pi!  While it is called a “1-wire” interface, in practice it needs two wires and over long runs three wires are more reliable.  The three wires correspond to a ground or common connection, a 3V3 supply and the signal output from the sensor.  To make life easier, it is possible to connect many sensors in parallel using the three connection wires.  Therefore, an array of DS18B20 sensors uses very few GPIO connection pins.  It is possible to use long cables with the sensors and each sensor draws very little current, adding only a small additional loading to the Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="That one signal wire is used to both read and write to the sensors and each sensor has its own unique ID number. But the w1-gpio and w1-therm kernel modules hides all the complexity and are pre installed in both Raspbian and Arch Linux for the Raspberry Pi."/>
+            <ITEXT CH="The signal wire is used to both to read and write to the sensors, where each sensor has its own unique identifier (ID) number.  The "/>
+            <ITEXT FONT="Monaco Regular" CH="w1-gpio"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="w1-therm"/>
+            <ITEXT CH=" Linux kernel modules hide all the complexity and are pre-installed in both Raspbian and Arch Linux for the Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To get started, connect one or more DS18B20 to the Raspberry Pi I/O connector, pin 1 for 3v3, signal to pin 7 and ground on pin 9. Power up your Raspberry Pi and get a command line. First we need to load the kernel modules, this needs to be done as root. "/>
+            <ITEXT CH="Read the data sheet of the DS18B20 carefully, checking which wire is which.  Then connect the 3V3 volt input wite to pin 1 on the Raspberry Pi GPIO.  If in doubt, refer to "/>
+            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://elinux.org/RPi_Low-level_peripherals"/>
+            <ITEXT CH=" for the GPIO pin mapping.  Connect the signal to pin 7 and ground to pin 9.  Make sure that a 4.7kOhm is connected as shown in the diagram above.  The connection can be achieved using a breadboard or by solding the component  to the other wires.  Then power up the Raspberry Pi and open a LXTerminal.  The Linux kernel modules are not loaded by default.  To load them type:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="modprobe w1-gpio"/>
+            <ITEXT CH=" sudo modprobe w1-gpio"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" sudo modprobe w1-therm"/>
+            <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="modprobe w1-therm"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="As is usually the case in the Unix world, no news is good news, if you don't see any error messages, all is good. But lets be sure, the modules should create directories in a virtual file system, one for each connected sensor (and one for a master)."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="ls -L /sys/bus/w1/devices"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="28-000004749871  28-001414af48ff  28-0014153fc6ff  w1_bus_master1"/>
+            <ITEXT CH="If there are no error messages, then the modules should have been loaded successfully.  When the kernel modules are loaded they create directories in a virtual file system, where there is one instance for each connected sensor (and one for a master).  For example, typing "/>
+            <ITEXT FONT="Monaco Regular" CH="ls -L /sys/bus/w1/devices"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In this example, I have three sensors connected. If you see only the master and not the serially numbered sensor directories, check your wiring. You can cat out the files in those directories if you are interested, but what we want is the second line in the file w1_slave, it looks like this -"/>
+            <ITEXT CH=" 28-000004749871  28-001414af48ff"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" 28-0014153fc6ff  w1_bus_master1"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="In this example, three sensors were connected.  If you see only the master and not the serially numbered sensor directories, check your wiring.  The temperature value can be printed by typing:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="61 01 4b 46 7f ff 0f 10 02 t=22062"/>
+            <ITEXT CH=" cat /sys/bus/w1/devices/28-000004749871/"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" w1_slave"/>
+            <para PARENT="Code"/>
             <para PARENT="Body text"/>
+            <ITEXT CH="which returned a temperature of 22.062degC."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The temperature, in this case is 22.062 degrees C.  "/>
+            <ITEXT CH=" "/>
             <para PARENT="Body text"/>
+            <ITEXT CH=" 1 01 4b 46 7f ff 0f 10 02 t=22062"/>
+            <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Here is a short script to read the files in those kernel  maintained directories -"/>
+            <ITEXT CH="The sensor values can also be read using a simple Python program:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" #!/usr/bin/env python"/>
@@ -272,39 +285,42 @@
             <ITEXT FONTSIZE="9" CH="   f.close()"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Here is how that script works on my system, note that the shorter five digit number is the temperature reading in “milli degrees”."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" "/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="[dbannon@alarmpi ~]$ python2.7 test.py "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="21687 "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="28-000004749871 "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="56937 "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="28-0014153fc6ff "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="56312 "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="28-001414af48ff "/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Now, that code is subject to some errors and should not be used in a 'system' as it is but is a useful starting point. The files are created and maintained by the kernel module and are not valid while being updated so our Python code should do some checks and keep trying until it looks OK."/>
+            <ITEXT CH="Make this program executable by typing chmod "/>
+            <ITEXT FONT="Monaco Regular" CH="755 test.py"/>
+            <ITEXT CH=" .  Then run the program by typing "/>
+            <ITEXT FONT="Monaco Regular" CH="./test.py"/>
+            <ITEXT CH=" .  The program prints the temperature readings in milli-degC."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The script below initialises, identifies connected sensors and displaying temperature readings. The last line could easily be put in a loop. The script itself is divided up into functions so a reader can easily grab just the bits they need."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="Many applications would  load the kernel modules from, typically, rc.local or even manually using the modprobe command as above.  The function above is more complicated than typical applications as it needs to check to see if the modules are already loaded. It will do no harm to try loading them again but if loaded for the first time, we need to wait a few seconds to allow the kernel to find and read our sensors."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The read_temps() function may be called in the brief time while the kernel is updating its sensor file, if so, it waits for a tenth of a second and tries again. It can also cope with a situation where a sensor has been unplugged. Otherwise, its operation is pretty clear."/>
+            <ITEXT CH="The files in the virtual file system are created and maintained by the Linux kernel modules and may not exist when the Linux installation is being updated or if the modules have not been loaded.  Therefore, there is a more complete Python program on the next page.  The program initialises, identifies connected sensors and displays temperature readings. To continue to read the temperature values, the "/>
+            <ITEXT FONT="Monaco Regular" CH="read_temps()"/>
+            <ITEXT CH=" function should be called many times within a loop.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The author has been using these sensors in a logger watching a solar hot water system in the hope of understanding its short comings. So, in addition to reading the sensors, the data is saved into a database and displayed, in graphical form on a web page. While few readers would want to duplicate that specific system, its hoped the broad principles shown here can be used in reader's projects."/>
-            <trail PARENT="Body text"/>
+            <ITEXT CH="The program contains three functions, such that pieces can easily be used for other programs.  The "/>
+            <ITEXT FONT="Monaco Regular" CH="load_modules()"/>
+            <ITEXT CH=" function checks to see if the kernel modules have been loaded and attempts to load them if necessary."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" CH="read_temp_lines()"/>
+            <ITEXT CH=" function accesses the virtual files that are associated with the temperature sensors and returns the values stored in the files.  Finally the "/>
+            <ITEXT FONT="Monaco Regular" CH="read_temps()"/>
+            <ITEXT CH=" function parses the text output and returns the temperature values."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" CH="read_temps()"/>
+            <ITEXT CH=" function can be called when the kernel is updating its sensor file.  If this happens it waits for a tenth of a second and tries again.  The function can also cope with a situation where a sensor has been unplugged."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Save the program as "/>
+            <ITEXT FONT="Monaco Regular" CH="temperature.py"/>
+            <ITEXT CH=", make it executable and run it by typing:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" sudo ./temperature.py"/>
+            <trail PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="40" BACKITEM="25">
@@ -337,7 +353,7 @@
             <ImageEffect Code="6" Param="5.68182 1.0"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="957" WIDTH="256.402913385827" HEIGHT="138.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.204675" LOCALSCY="0.204675" LOCALX="-13.8494963688352" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="fig_two.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 138.75 256.403 138.75 256.403 138.75 256.403 138.75 0 138.75 0 138.75 0 138.75 0 138.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 138.75 256.403 138.75 256.403 138.75 256.403 138.75 0 138.75 0 138.75 0 138.75 0 138.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="957" WIDTH="256.402913385827" HEIGHT="138.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.1495" LOCALSCY="0.1495" LOCALX="-94.8042029863324" LOCALY="-265.451768361731" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="fig_two.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 138.75 256.403 138.75 256.403 138.75 256.403 138.75 0 138.75 0 138.75 0 138.75 0 138.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 138.75 256.403 138.75 256.403 138.75 256.403 138.75 0 138.75 0 138.75 0 138.75 0 138.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -484,13 +500,41 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="411.282519641733" YPOS="1013.75" WIDTH="255.652913429133" HEIGHT="100" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="15" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 100 255.653 100 255.653 100 255.653 100 0 100 0 100 0 100 0 100 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 100 255.653 100 255.653 100 255.653 100 0 100 0 100 0 100 0 100 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1286.5" WIDTH="255.652913385827" HEIGHT="38.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 38.25 255.653 38.25 255.653 38.25 255.653 38.25 0 38.25 0 38.25 0 38.25 0 38.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 38.25 255.653 38.25 255.653 38.25 255.653 38.25 0 38.25 0 38.25 0 38.25 0 38.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="522.368642973826" YPOS="301.596625559448" WIDTH="130.464288855498" HEIGHT="18.3807178205899" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 18.3807 130.464 18.3807 130.464 18.3807 130.464 18.3807 0 18.3807 0 18.3807 0 18.3807 0 18.3807 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 130.464 0 130.464 0 130.464 0 130.464 0 130.464 18.3807 130.464 18.3807 130.464 18.3807 130.464 18.3807 0 18.3807 0 18.3807 0 18.3807 0 18.3807 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="11.2678555411184" gYpos="161.177334178346" gWidth="153" gHeight="193.248031453543" ALIGN="1" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONTSIZE="12" FCOLOR="White" CH="MagPi Writer"/>
             <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="258" YPOS="1144.5" WIDTH="127.5" HEIGHT="13.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://elinux.org/RPi_Low-level_peripherals" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text47" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 127.5 0 127.5 0 127.5 0 127.5 0 127.5 13.5 127.5 13.5 127.5 13.5 127.5 13.5 0 13.5 0 13.5 0 13.5 0 13.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 127.5 0 127.5 0 127.5 0 127.5 0 127.5 13.5 127.5 13.5 127.5 13.5 127.5 13.5 0 13.5 0 13.5 0 13.5 0 13.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="1158.49999996142" WIDTH="81.6529133858266" HEIGHT="16.0000000385821" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://elinux.org/RPi_Low-level_peripherals" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Copy of Text47" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 81.6529 0 81.6529 0 81.6529 0 81.6529 0 81.6529 16 81.6529 16 81.6529 16 81.6529 16 0 16 0 16 0 16 0 16 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 81.6529 0 81.6529 0 81.6529 0 81.6529 0 81.6529 16 81.6529 16 81.6529 16 81.6529 16 0 16 0 16 0 16 0 16 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1433.49999996142" WIDTH="255.6529134" HEIGHT="38.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 38.25 255.653 38.25 255.653 38.25 255.653 38.25 0 38.25 0 38.25 0 38.25 0 38.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 38.25 255.653 38.25 255.653 38.25 255.653 38.25 0 38.25 0 38.25 0 38.25 0 38.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1549.49999996142" WIDTH="255.6529134" HEIGHT="38.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 38.25 255.653 38.25 255.653 38.25 255.653 38.25 0 38.25 0 38.25 0 38.25 0 38.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 38.25 255.653 38.25 255.653 38.25 255.653 38.25 0 38.25 0 38.25 0 38.25 0 38.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1621.89070866142" WIDTH="255.6529134" HEIGHT="22.5522046858275" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 22.5522 255.653 22.5522 255.653 22.5522 255.653 22.5522 0 22.5522 0 22.5522 0 22.5522 0 22.5522 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 22.5522 255.653 22.5522 255.653 22.5522 255.653 22.5522 0 22.5522 0 22.5522 0 22.5522 0 22.5522 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="411.282519670867" YPOS="957.499999961418" WIDTH="255.6529134" HEIGHT="151.319842558268" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 151.32 255.653 151.32 255.653 151.32 255.653 151.32 0 151.32 0 151.32 0 151.32 0 151.32 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 151.32 255.653 151.32 255.653 151.32 255.653 151.32 0 151.32 0 151.32 0 151.32 0 151.32 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="411.282519670867" YPOS="1652.89070866142" WIDTH="255.6529134" HEIGHT="22.55220469" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 22.5522 255.653 22.5522 255.653 22.5522 255.653 22.5522 0 22.5522 0 22.5522 0 22.5522 0 22.5522 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 22.5522 255.653 22.5522 255.653 22.5522 255.653 22.5522 0 22.5522 0 22.5522 0 22.5522 0 22.5522 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
