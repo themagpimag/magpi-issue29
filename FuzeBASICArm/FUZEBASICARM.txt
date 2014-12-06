@@ -1,0 +1,225 @@
+In this article I am going to show you how to use FUZE BASIC to control a robot arm. The robot arm that we are using is available in the UK from Maplin Electronics (Code: N35DU or A37JN). Worldwide it is known as the OWI robotic arm. Don't forget you need the USB version. The robot arm is also bundled with the FUZE keyboard in kit T2-R and the new BBC Micro styled T2-SE-R kit. For more details visit http://www.fuze.co.uk.
+
+Before you attempt this project I am going to assume that you have followed the FUZE BASIC articles in issues 26, 27 and 28 of The MagPi. If not I recommend you take the time to read these articles and get familiar with FUZE BASIC.
+
+"Wir sind die Roboter"
+
+Please setup your Raspberry Pi and connect the robot arm to one of the available USB ports.  It is best to connect the robot arm before running FUZE BASIC and make sure it is also switched on.
+
+Double click the FUZE BASIC icon to begin. As you will have come to expect, FUZE BASIC will leap into action and present you with the Ready> prompt.
+
+First of all straighten the robot arm so it is not all folded up. Do not worry if the arm clicks here and there. This is just the gears clicking and nothing actually breaking! Your robot arm should look something like the picture below.
+Warning: The following commands will set the robot arm moving as soon as you press <Enter>.  If you do not type the next command the arm will go as far as it can and start clicking - you should enter the ArmBody (0) command to stop it. 
+Type in the following commands, pressing <Enter> after each one:
+
+ ArmBody (1)
+ ArmBody (-1)
+ ArmBody (0)
+
+
+If at this point you get an error stating “Unable to find Robot Arm” or similar then exit FUZE BASIC with the Exit command. Unplug the robot arm and reconnect it again. Also please make sure the robot arm is switched on. Start FUZE BASIC and try the above again. If at this point it still does not work, seek help from an adult - or if you are an adult then seek help from a child! 
+
+Assuming everything worked correctly, did you notice something? Yep, FUZE BASIC has support for the OWI/Maplin robot arm built into the language!
+
+Now try these other control commands. In each case x can be either -1, 0 or 1. The exception is ArmLight (x) where x can only be 0 or 1. Try out the different values for x and see what happens:
+
+ ArmShoulder (x)
+ ArmElbow (x)
+ ArmWrist (x)
+ ArmGripper (x)
+ ArmLight (x)
+
+
+A useful trick to know at this point is that you can repeat the last command by pressing the <Up> arrow key and then just edit the number. Remember, you still need to press <Enter>.
+
+Time to write some code
+
+Let’s put some of this new found knowledge into action. Press <F2> to enter the FUZE Editor. If there is another program listed then make sure it is not needed and then press <F12> to clear it. Enter the following lines of code:
+
+ CLS
+ PROC ResetArm
+ END
+
+ DEF PROC ResetArm
+   ArmBody (0)
+   ArmShoulder (0)
+   ArmElbow (0)
+   ArmWrist (0)
+   ArmGripper (0)
+   ArmLight (0)
+ ENDPROC
+
+Press <F3> to run the program. You will be prompted for a file name. Name it something like “RobotArm”, for example.
+
+The purpose of this code is to make sure the robot arm can be instructed to switch everything off, so absolutely nothing will happen when you run the program, but we will use this code a lot later.
+
+Edit the program to add the following code at the end:
+
+ DEF PROC DisplayInstructions
+   CLS
+   FONTSCALE (2, 2)
+   INK = Red
+   PRINT “We are the ROBOTS!”
+   INK = White
+   HVTAB (0,2)
+   PRINT “Press”
+   PRINT
+   PRINT “1 or 2 for Body left & right”
+   PRINT “3 or 4 for Shoulder up & down”
+   PRINT “5 or 6 for Elbow up & down”
+   PRINT “7 or 8 for Wrist up & down”
+   PRINT “9 or 0 for Gripper open & close”
+   PRINT “Enter to turn the Robot light on”
+   INK = Red
+   PRINT
+   PRINT “Space to stop movement & switch light
+ off”
+ ENDPROC
+We also need to add a call to PROC DisplayInstructions. Add this to the start of the program. The grey text is what you should already have:
+
+ CLS
+ PROC ResetArm
+ PROC DisplayInstructions
+ END
+
+
+You should have something similar to the picture below.
+When you press <F3> to run the program, you should see something like the following picture.
+
+
+
+
+
+
+
+
+
+
+
+PROC, FONTSCALE and HVTAB
+
+We have introduced some new commands which deserve a brief explanation.
+
+The PROC command, as used in PROC DisplayInstructions and PROC ResetArm, is short for Procedure. The command tells the program to jump to the part of the program labelled DEF PROC “procedure name”; in this case DisplayInstructions and ResetArm.
+
+The end of the procedure is defined by the ENDPROC or End Procedure command at which point the program will return to where it was called from.
+
+Procedures help keep a program tidy as we can place routines and functions away from the main program. They also allow us to reuse the same routine many times with a single command. The ResetArm procedure for example can be used at any point to turn everything off just by calling PROC ResetArm. It is important to grasp this concept as we will be using it later.
+
+FONTSCALE is very straightforward. (1, 1) is normal size whereas (3, 3) is three times width and height and (2, 4) is double width but four times the height.  You can experiment with this in Direct mode.
+
+HVTAB is also very simple to grasp once explained. H is for Horiziontal and V is for Vertical. The command positions the text cursor at a specified position on the screen so that the next PRINT command will place the text at that position on the screen.
+
+Look at the example commands below:
+
+ HVTAB (1, 5)
+ PRINT "ROBOT"
+
+Notice that the (0, 0) co-ordinates are in the top-left corner when plotting text characters and the size of the grid depends on the width and height of the characters. 
+
+However, from the previous articles you will also know that this is different for graphics. When plotting graphics the (0, 0) co-ordinates are in the bottom-left corner and the size of the grid is based on the number of pixels along the width and height of the screen. 
+
+Take action
+
+We now add the main loop to the start of the program. This will get the robot arm to respond to our commands. 
+There is a lot to add here so please be careful to copy it exactly. Once again you already have the code in grey:
+
+ CLS
+ PROC ResetArm
+ PROC DisplayInstructions
+
+ CYCLE
+
+ Key = Inkey
+
+ SWITCH (Key)
+   CASE 49
+     ArmBody (1)
+   ENDCASE
+   CASE 50
+     ArmBody (-1)
+   ENDCASE
+   CASE 51
+     ArmShoulder (1)
+   ENDCASE
+
+
+   CASE 52
+     ArmShoulder (-1)
+   ENDCASE
+   CASE 53
+     ArmElbow (1)
+   ENDCASE
+   CASE 54
+     ArmElbow (-1)
+   ENDCASE
+   CASE 55
+     ArmWrist (1)
+   ENDCASE
+   CASE 56
+     ArmWrist (-1)
+   ENDCASE
+   CASE 57
+     ArmGripper (1)
+   ENDCASE
+   CASE 48
+     ArmGripper (-1)
+   ENDCASE
+   CASE 32
+     PROC ResetArm
+   ENDCASE
+   CASE 13
+     ArmLight (1)
+   ENDCASE
+ ENDSWITCH
+
+ REPEAT
+
+ END
+
+
+INKEY, SWITCH and CASE
+
+There are more new commands here. First the Inkey command. This is a very useful command and one that you will use over and over again.
+
+For example, we can use Inkey to pause any program to wait (LOOP) for a key to be pressed:
+
+ PRINT “Press any key to continue”
+ CYCLE
+ REPEAT UNTIL Inkey <> -1
+
+If no key is being pressed the value of Inkey is -1. Whenever a key is pressed its ASCII (American Standard Code for Information Interchange) code value is stored in Inkey. So the above loop will repeat until Inkey is not equal to -1.
+
+This also means we can check if a specific key is pressed. For example the value of the <Space Bar> is 32, so we could change the above to:
+
+ PRINT “Press the Space bar to continue”
+ CYCLE
+ REPEAT UNTIL Inkey = 32
+
+This time the program waits specifically for the <Space Bar> key to be pressed and everything else is ignored.
+
+Here are a few more Inkey codes, just in case you need them:
+
+48 - 0 49 - 1 50 - 2 51 - 3 52 - 4 53 - 5
+54 - 6 55 - 7 56 - 8 57 - 9 65 - A 66 - B
+67 - C 68 - D 69 - E 70 - F 71 - G 72 - H
+73 - I 74 - J 75 - K 76 - L 77 - M 78 - N
+79 - O 80 - P 81 - Q 82 - R 83 - S 84 - T
+85 - U 86 - V 87 - W 88 - X 89 - Y 90 - Z
+32 - Space Bar       13 - Enter
+
+In our program we store the value of Inkey (the ASCII code value of any key pressed) in the variable Key.
+
+The remaining code is much easier than it looks. The SWITCH command checks the value stored in Key and, depending on the value, performs the command(s) in the relevant CASE section.
+
+So if <1> is pressed, the ASCII code value is 49 (see reference chart above) and therefore the command ArmBody (1) is executed.
+
+
+
+Challenges
+
+Now that you have seen how easy it is to control the robot arm using FUZE BASIC, why not use this new knowledge and try these two challenges.
+
+1) Practice moving different parts of the robot around in Direct mode?  Remember <F2> switches between Direct mode and the Editor.
+
+2) Write a new program to repeat a series of robotic movements. Use the WAIT command to determine how far each movement goes.
