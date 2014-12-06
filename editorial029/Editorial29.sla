@@ -81,13 +81,22 @@
             <PageItemAttributes/>
         </FRAMEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.662063584216" YPOS="190" WIDTH="538.267700195312" HEIGHT="483.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.268 0 538.268 0 538.268 0 538.268 0 538.268 483.5 538.268 483.5 538.268 483.5 538.268 483.5 0 483.5 0 483.5 0 483.5 0 483.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.268 0 538.268 0 538.268 0 538.268 0 538.268 483.5 538.268 483.5 538.268 483.5 538.268 483.5 0 483.5 0 483.5 0 483.5 0 483.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="This month's Issue is packed with hardware and programming articles.  We are pleased to present the first article in an OpenCV (open source computer vision) image recognition software series by Derek Campbell.  The robot that Derek used to test the software configuration is shown on this month's cover.  "/>
+            <ITEXT CH="Welcome to Issue 29 of the MagPi, packed with the usual mixture of hardware projects and programming articles, providing lots of avenues for invention during the festive period."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Expanding the I/O possibilities of the Raspberry Pi is often a first step of electronics projects.  This time, Dougie Lawson presents a review of the Arduberry board from Dexter Industries.  This little board provides an ideal microcontroller interface for more complicated electronics projects.  This month's hardware articles are rounded off by Karl-Ludwig Butte's third BitScope article, which includes examples of preamplifier circuits and associated test and measurement."/>
+            <ITEXT CH="With the Christmas holidays drawing near, what could be better than some new Raspberry Pi hardware.  For all those looking forward to building a high altitute capsule or automus submarrine, the Model A+ provides a lot of great features for a very low power budget.  Dougie Lawson presents a whistle-stop tour of the A+, comparing it to other Raspberry Pi Models."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The Raspberry Pi provides the opportunity to run many different software applications.  Voice over IP (VoIP) allows telephone calls to be carried over an internet connection.  Walberto Abad continues his mini-series by describing how to setup an Asterisk VoIP server."/>
+            <ITEXT CH="Computer vision can provide solutions to many automous robitcs projects.  Derek Campbell sketches out more feature of OpenCV (open source computer vision) image recognition software."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The Raspberry Pi is ideally suited as the hub of a sensor array, since it can propigate sensor readings via a web server or other remote protocols.  In this Issue, we are pleased to present John Shovic's final article in the Project Curacao remote monitoring series."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="While complicated projects are possible with the Raspberry Pi, it is also ideally suited to learning the techniques of interfacing.  Brian Grawburg introduces his traffic light extension board and David Bannon demonstrates how to add a 1-wire digital temperature sensor."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="This month's programming line-up includes "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The second application article this month continues the discussion of git (distributed version control system).  Git was originally produced for Linux kernel development, but is now a mainstay of many different development projects and has been adopted by several schools too.  Alec Clews leads us through his second tutorial on the subject."/>
