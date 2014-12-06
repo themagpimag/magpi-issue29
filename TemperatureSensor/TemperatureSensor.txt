@@ -1,0 +1,60 @@
+
+The Raspberry Pi is particularly suited to logging data and temperature is a very popular thing to log!  This article describes how to measure temperature using the  DS18B20 “1-wire” digital sensor from Dallas Semiconductor.  The DS18B20 sensor is widely available from many different suppliers, as a component or packaged within a sealed unit, e.g.:
+http://www.adafruit.com/product/381
+The sensor requires a 4.7kOhmn resistor to connect it to the Raspberry Pi.
+The DS18B20 sensor is relatively cheap and is supported by the Linux kernel present in the current Raspbian distribution for the Raspberry Pi.  The data recorded from it is available directly as a temperature value.  Without additional calibration, it is sufficiently accurate for most applications.  It can measure temperature from -55 to 125degC, with a resolution of 9 to 12 bits implying an accuracy of 0.5degC over much of the range.
+
+If you are happy with a soldering iron, making your own sensors using the TO92 packages is easy, cut the DS18B20's leads so there is only about 5mm remaining, solder a lead to each, mix up some epoxy and fill the volume around your solder joints.  A sensor made like this is smaller and possibly faster to respond that the more robust commercial ones.
+
+The real beauty of the DS18B20 sensor is that it is very easy to use on the Raspberry Pi!  While it is called a “1-wire” interface, in practice it needs two wires and over long runs three wires are more reliable.  The three wires correspond to a ground or common connection, a 3V3 supply and the signal output from the sensor.  To make life easier, it is possible to connect many sensors in parallel using the three connection wires.  Therefore, an array of DS18B20 sensors uses very few GPIO connection pins.  It is possible to use long cables with the sensors and each sensor draws very little current, adding only a small additional loading to the Raspberry Pi.
+
+The signal wire is used to both to read and write to the sensors, where each sensor has its own unique identifier (ID) number.  The w1-gpio and w1-therm Linux kernel modules hide all the complexity and are pre-installed in both Raspbian and Arch Linux for the Raspberry Pi.
+
+
+
+Read the data sheet of the DS18B20 carefully, checking which wire is which.  Then connect the 3V3 volt input wite to pin 1 on the Raspberry Pi GPIO.  If in doubt, refer to http://elinux.org/RPi_Low-level_peripherals for the GPIO pin mapping.  Connect the signal to pin 7 and ground to pin 9.  Make sure that a 4.7kOhm is connected as shown in the diagram above.  The connection can be achieved using a breadboard or by solding the component  to the other wires.  Then power up the Raspberry Pi and open a LXTerminal.  The Linux kernel modules are not loaded by default.  To load them type:
+
+ sudo modprobe w1-gpio
+ sudo modprobe w1-therm
+
+If there are no error messages, then the modules should have been loaded successfully.  When the kernel modules are loaded they create directories in a virtual file system, where there is one instance for each connected sensor (and one for a master).  For example, typing ls -L /sys/bus/w1/devices
+
+ 28-000004749871  28-001414af48ff
+ 28-0014153fc6ff  w1_bus_master1
+
+In this example, three sensors were connected.  If you see only the master and not the serially numbered sensor directories, check your wiring.  The temperature value can be printed by typing:
+
+ cat /sys/bus/w1/devices/28-000004749871/
+ w1_slave
+
+which returned a temperature of 22.062degC.
+ 
+ 1 01 4b 46 7f ff 0f 10 02 t=22062
+
+The sensor values can also be read using a simple Python program:
+
+ #!/usr/bin/env python
+ import os
+ dev_dir = '/sys/bus/w1/devices/'
+ devices = os.listdir(dev_dir) 
+ devices.remove('w1_bus_master1') 
+ for dev in devices: 
+   f = open(dev_dir + dev + '/w1_slave', 'r') 
+   content = f.readlines() 
+   temp_start = content[1].find('t=') 
+   print content[1][temp_start + 2:] + dev 
+   f.close()
+
+Make this program executable by typing chmod 755 test.py .  Then run the program by typing ./test.py .  The program prints the temperature readings in milli-degC.
+
+The files in the virtual file system are created and maintained by the Linux kernel modules and may not exist when the Linux installation is being updated or if the modules have not been loaded.  Therefore, there is a more complete Python program on the next page.  The program initialises, identifies connected sensors and displays temperature readings. To continue to read the temperature values, the read_temps() function should be called many times within a loop.  
+
+The program contains three functions, such that pieces can easily be used for other programs.  The load_modules() function checks to see if the kernel modules have been loaded and attempts to load them if necessary.
+
+The read_temp_lines() function accesses the virtual files that are associated with the temperature sensors and returns the values stored in the files.  Finally the read_temps() function parses the text output and returns the temperature values.
+
+The read_temps() function can be called when the kernel is updating its sensor file.  If this happens it waits for a tenth of a second and tries again.  The function can also cope with a situation where a sensor has been unplugged.
+
+Save the program as temperature.py, make it executable and run it by typing:
+
+ sudo ./temperature.py
