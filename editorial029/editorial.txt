@@ -1,0 +1,15 @@
+﻿Welcome to Issue 29 of the MagPi, packed with the usual mixture of hardware projects and programming articles, providing lots of avenues for invention during December.
+
+With the Christmas holidays drawing near, what could be better than some new Raspberry Pi hardware.  For all those looking forward to building a high altitude capsule or autonomous submarine, the Model A+ provides many great features for a very low power budget.  Dougie Lawson presents a whistle-stop tour of the A+, comparing it to other Raspberry Pi Models.
+
+On the subject of robots, computer vision can provide an image cognition solution within many autonomous robotics projects.  Derek Campbell sketches out more features of OpenCV (open source computer vision) image recognition software.
+
+The Raspberry Pi is ideally suited as the hub of a sensor array or control unit, since it can be used to propagate information via a web server or other remote protocol.  In this Issue, John Shovic's presents his final article in the Project Curacao remote monitoring series, David Bannon demonstrates how to build and read a simple array of digital temperature sensors, and Brian Grawburg introduces his traffic light extension board.
+
+When developing software or projects, it is important to retain unique files that are part of the build.  In this Issue, Alec Clews continues his series on software repositories and using Git, and William Bell discusses the basics of adding external storage to the Raspberry Pi.
+
+Computer programming enables the Raspberry Pi to be used within many different applications.  This month, Jon Silvera discusses how to drive a robotic arm with FUZE BASIC, William Bell presents a simple space arcade game in Scratch and Paul Sutton introduces Python graphical user interfaces (GUIs).
+
+The MagPi will be taking a short break over Christmas and the first Issue of 2015 will be published at the start of February.
+
+Merry Christmas and best wishes for 2015.
