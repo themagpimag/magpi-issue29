@@ -47,7 +47,8 @@
         <LAYERS NUMMER="12" LEVEL="13" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff00ff"/>
         <LAYERS NUMMER="13" LEVEL="3" NAME="Effect : Header_Fade 002" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffff00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -206,7 +207,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="142.347086614173" YPOS="373" WIDTH="506.402913385827" HEIGHT="183" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" OpticalMargins="14" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="13" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 506.403 0 506.403 0 506.403 0 506.403 0 506.403 183 506.403 183 506.403 183 506.403 183 0 183 0 183 0 183 0 183 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 506.403 0 506.403 0 506.403 0 506.403 0 506.403 183 506.403 183 506.403 183 506.403 183 0 183 0 183 0 183 0 183 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="Adding natural physics processes to games can make them more real and thrilling to play.  In Issue 17, a simple projectile motion game was introduced.  The game included  gravity and initial velocity.  These concepts can be used for other types of games too."/>
+            <ITEXT CH="Adding natural physics processes to games can make them more real and thrilling to play. In Issue 17, a simple projectile motion game was introduced. The game included  gravity and initial velocity.  These concepts can be used for other types of games too."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="This month's game introduces the simulation of a spaceship landing on a remote planet, where the landing craft obeys the normal laws of physics.  In this case, the Lander has rocket motors to change its direction."/>
@@ -214,10 +215,10 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="141" YPOS="616" WIDTH="511.756535433071" HEIGHT="197.702047244095" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" OpticalMargins="14" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="13" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 511.757 0 511.757 0 511.757 0 511.757 0 511.757 197.702 511.757 197.702 511.757 197.702 511.757 197.702 0 197.702 0 197.702 0 197.702 0 197.702 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 511.757 0 511.757 0 511.757 0 511.757 0 511.757 197.702 511.757 197.702 511.757 197.702 511.757 197.702 0 197.702 0 197.702 0 197.702 0 197.702 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="3" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="The idea of the game is to land the spacecraft on the landing pad.  If the spacecraft lands on the surrounding ground, then it will explode.  If the spacecraft does not touch down on the landing platform correctly, then it will explode too.  The spacecraft must be travelling slowly when it touches down or it will be destroyed."/>
+            <ITEXT CH="The idea of the game is to land the spacecraft on the landing pad.  If the spacecraft lands on the surrounding ground, then it will explode.  If the spacecraft does not touch down on the landing platform correctly, then it will explode too. The spacecraft must be travelling slowly when it touches down or it will be destroyed."/>
             <para/>
             <para/>
-            <ITEXT CH="The Lander sprite has three costumes, to show the Lander with its engines on, when crashed, and when the engines are off.  The costume with the engines off was copied and then modified to form the other costumes.  The costumes were drawn on their sides, such that an angle of zero degrees corresponds to the spacecraft pointing straight upwards.  (More details of the Scratch system of angles are given in Issue 17.) "/>
+            <ITEXT CH="The Lander sprite has three costumes, to show the Lander with its engines on, when crashed, and when the engines are off.  The costume with the engines off was copied and then modified to form the other costumes. The costumes were drawn on their sides, such that an angle of zero degrees corresponds to the spacecraft pointing straight upwards.  (More details of the Scratch system of angles are given in Issue 17.) "/>
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -225,7 +226,7 @@
             <ITEXT CH="The Stage"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Two backgrounds were created for the Stage, where the size of the landing pad and the amount of surrounding red rock was chosen to be different.  Once the background images had been drawn, the Lander sprite was resized to match landing pad by the right clicking the mouse on the Lander sprite.  The colours used for the surrounding ground and the landing pad for the two backgrounds were chosen to be the same, to allow tests based on the colours of the sprite and the background.  Then a simple script was written to select a random Stage background when the green flag is pressed."/>
+            <ITEXT CH="Two backgrounds were created for the Stage, where the size of the landing pad and the amount of surrounding red rock was chosen to be different.  Once the background images had been drawn, the Lander sprite was resized to match the landing pad by right clicking the mouse on the Lander sprite.  The colours used for the surrounding ground and the landing pad for the two backgrounds were chosen to be the same, to allow tests based on the colours of the sprite and the background. Then a simple script was written to select a random Stage background when the green flag is pressed."/>
             <para PARENT="Body text"/>
             <ITEXT CH=" "/>
             <para PARENT="Body text"/>
@@ -233,7 +234,7 @@
             <ITEXT CH="Controlling the Lander"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The Lander is controlled with the left and right arrow keys and the space bar.  To prevent the controls from moving the lander when the game is not taking place, a local variable was created called "/>
+            <ITEXT CH="The Lander is controlled with the left and right arrow keys and the space bar. To prevent the controls from moving the lander when the game is not taking place, a local variable was created called "/>
             <ITEXT FONT="Monaco Regular" CH="flying"/>
             <ITEXT CH=".  If the "/>
             <ITEXT FONT="Monaco Regular" CH="flying"/>
@@ -243,14 +244,14 @@
             <ITEXT CH="Tapping on the left arrow causes the Lander to turn 15 degrees to the left and tapping on the right arrow causes the lander to turn 15 degrees to the right."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The space bar is used to fire the thrusters, to slow down the Lander and manoeuvre it to the landing pad.  When the space bar is pressed, the costume of the Lander changes to the version that shows the engines burning.  The costume continues to show the engines burning, while the space bar is pressed.  When the space bar is released, the costume changes back to show the engines as being off."/>
+            <ITEXT CH="The space bar is used to fire the thrusters, to slow down the Lander and manoeuvre it to the landing pad.  When the space bar is pressed, the costume of the Lander changes to the version that shows the engines burning.  The costume continues to show the engines burning, while the space bar is pressed. When the space bar is released, the costume changes back to show the engines as being off."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="While the space bar is pressed the velocity of the Lander is increased, according to its current direction.  The sine and cosine operators are used to calculate the increase of the x and y velocity components using the direction, where the velocity components are stored in local variables "/>
             <ITEXT FONT="Monaco Regular" CH="vx"/>
             <ITEXT CH=" and "/>
             <ITEXT FONT="Monaco Regular" CH="vy"/>
-            <ITEXT CH=" respectively.   The direction is zero, when the Lander points straight upwards, 180 when it points straight downwards, positive when it points to the right and negative when it points to the left."/>
+            <ITEXT CH=" respectively.  The direction is zero when the Lander points straight upwards, 180 when it points straight downwards, positive when it points to the right and negative when it points to the left."/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -331,14 +332,18 @@
             <ITEXT FONT="FreeSans Regular" CH="The Lander requires one more script block, to control the flight of the Lander and to check to see if it has crashed or landed.  The script on the left performs this functionality."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Regular" CH="When the green flag is pressed, the Lander is reset to point straight upwards, the engines are turned off and its position is chosen at random along the top of the screen.  The local variables for the x and y velocity components and the flight status are also reset."/>
+            <ITEXT FONT="FreeSans Regular" CH="When the green flag is pressed, the Lander is reset to point straight upwards, the engines are turned off and its position is chosen at random along the top of the screen.  The local variables for the "/>
+            <ITEXT FONT="Monaco Regular" CH="x"/>
+            <ITEXT FONT="FreeSans Regular" CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="y"/>
+            <ITEXT FONT="FreeSans Regular" CH=" velocity components and the flight status are also reset."/>
             <ITEXT CH="  The main "/>
             <ITEXT FONT="Monaco Regular" CH="repeat until"/>
             <ITEXT CH=" loop continues to run until the "/>
             <ITEXT FONT="Monaco Regular" CH="flying"/>
-            <ITEXT CH=" status has been reset to zero.  The first step within the loop is to reduce the vertical velocity component by a small amount.  This reduction of velocity is present to simulate the effect of gravity on the Lander. The next block within the loop checks to see if the Lander has touched the surrounding ground.  If it has touched it, then the costume is changed to the crashed version and the "/>
+            <ITEXT CH=" status has been reset to zero.  The first step within the loop is to reduce the vertical velocity component by a small amount. This reduction of velocity is present to simulate the effect of gravity on the Lander. The next block within the loop checks to see if the Lander has touched the surrounding ground. If it has touched it, then the costume is changed to the crashed version and the "/>
             <ITEXT FONT="Monaco Regular" CH="flying"/>
-            <ITEXT CH=" status is set to zero.  If it has not touched the surrounding ground, then the program checks to see if the landing feet have touched the landing pad or not.  If they have touched the landing pad, then the vertical velocity component and the direction of the Lander is checked.  If the touch down is not successful, the Lander will be shown as crashed.  If the landing is successful, then the Lander will say &quot;Landed!&quot;.  While the Lander is not in contact with the ground, the position of the Lander is updated using the velocity components.  In this program, the speed of the loop regulates how fast time is passing in the simulation."/>
+            <ITEXT CH=" status is set to zero.  If it has not touched the surrounding ground, then the program checks to see if the landing feet have touched the landing pad or not.  If they have touched the landing pad then the vertical velocity component and the direction of the Lander is checked.  If the touch down is not successful, the Lander will be shown as crashed.  If the landing is successful then the Lander will say &quot;Landed!&quot;.  While the Lander is not in contact with the ground, the position of the Lander is updated using the velocity components.  In this program, the speed of the loop regulates how fast time is passing in the simulation."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="To make the game harder or easier, try changing the reduction of the vertical velocity in the loop (the effect of gravity) or try changing the effect of the thrusters.  The lander could be given a limited amount of fuel, by counting the number of times the space bar is pressed."/>
