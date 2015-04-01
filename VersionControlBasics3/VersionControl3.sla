@@ -49,7 +49,7 @@
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
         <LAYERS NUMMER="13" LEVEL="8" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Bold Oblique"/>
@@ -286,19 +286,13 @@
             <ITEXT CH="You will see something similar to:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <nbspace/>
-            <ITEXT CH="Updating f3e61d9..5bfb67a"/>
+            <ITEXT CH=" Updating f3e61d9..5bfb67a"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="Fast-forward"/>
+            <ITEXT CH=" Fast-forward"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
-            <ITEXT CH="game/snake.py |    4 ++--"/>
+            <ITEXT CH="  game/snake.py |    4 ++--"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
-            <ITEXT CH="1 file changed, 2 insertions(+), 2"/>
+            <ITEXT CH="  1 file changed, 2 insertions(+), 2"/>
             <para PARENT="Code"/>
             <ITEXT CH=" deletions(-)"/>
             <para PARENT="Code"/>
@@ -333,20 +327,15 @@
             <para PARENT="Code"/>
             <ITEXT CH=" git branch"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
             <para PARENT="Code"/>
             <ITEXT CH="You will see the following:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="   make_rocks_R"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="* master"/>
+            <ITEXT CH=" * master"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
-            <ITEXT CH=" use_curses_symbols"/>
+            <ITEXT CH="   use_curses_symbols"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT CH="Now enter:"/>
@@ -358,16 +347,13 @@
             <ITEXT CH="This results in the following output:"/>
             <para PARENT="Body text"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="Auto-merging game/snake.py"/>
+            <ITEXT CH=" Auto-merging game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="CONFLICT (content): Merge conflict in  "/>
+            <ITEXT CH=" CONFLICT (content): Merge conflict in  "/>
             <para PARENT="Code"/>
             <ITEXT CH="game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="Automatic merge failed; fix conflicts and"/>
+            <ITEXT CH=" Automatic merge failed; fix conflicts and"/>
             <para PARENT="Code"/>
             <ITEXT CH="then commit the result."/>
             <para PARENT="Code"/>
@@ -383,26 +369,19 @@
             <ITEXT CH=" git status"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="# On branch master"/>
+            <ITEXT CH=" # On branch master"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="# Unmerged paths:"/>
+            <ITEXT CH=" # Unmerged paths:"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="#   (use &quot;git add/rm &lt;file&gt;...&quot; as appropriate to mark resolution)"/>
+            <ITEXT CH=" #   (use &quot;git add/rm &lt;file&gt;...&quot; as appropriate to mark resolution)"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="#"/>
+            <ITEXT CH=" #"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="#       both modified:      game/snake.py"/>
+            <ITEXT CH=" #       both modified:      game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="#"/>
+            <ITEXT CH=" #"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)"/>
+            <ITEXT CH=" no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="Let’s see what our conflict looks like"/>
@@ -412,69 +391,40 @@
             <ITEXT CH=" git diff"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="diff --cc game/snake.py"/>
+            <ITEXT CH=" diff --cc game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="index f3e61d9,8db9999..0000000"/>
+            <ITEXT CH=" index f3e61d9,8db9999..0000000"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="--- a/game/snake.py"/>
+            <ITEXT CH=" --- a/game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="+++ b/game/snake.py"/>
+            <ITEXT CH=" +++ b/game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="@@@ -47,9 -47,9 +47,13 @@@ def add_block(scr, width, height)"/>
+            <ITEXT CH=" @@@ -47,9 -47,9 +47,13 @@@ def add_block(scr, width, height)"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="             "/>
-            <nbspace/>
-            <ITEXT CH="empty = False"/>
+            <ITEXT CH="               empty = False"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
-            <ITEXT CH="       if empty:"/>
+            <ITEXT CH="         if empty:"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="-         # if it is, replace it with a &quot;Y&quot; and return"/>
+            <ITEXT CH=" -         # if it is, replace it with a &quot;Y&quot; and return"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="+         # if it is, replace it with a &quot;R&quot; and return"/>
+            <ITEXT CH=" +         # if it is, replace it with a &quot;R&quot; and return"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="++&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD"/>
+            <ITEXT CH=" ++&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
-            <ITEXT CH="+        scr.addch(y, x, ord(&quot;R&quot;), curses.color_pair(2))"/>
+            <ITEXT CH="  +        scr.addch(y, x, ord(&quot;R&quot;), curses.color_pair(2))"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="++======="/>
+            <ITEXT CH=" ++======="/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="+         scr.addch(y, x, ord(&quot;Y&quot;), curses.color_pair(curses.COLOR_GREEN))"/>
+            <ITEXT CH=" +         scr.addch(y, x, ord(&quot;Y&quot;), curses.color_pair(curses.COLOR_GREEN))"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="++&gt;&gt;&gt;&gt;&gt;&gt;&gt; use_curses_symbols"/>
+            <ITEXT CH=" ++&gt;&gt;&gt;&gt;&gt;&gt;&gt; use_curses_symbols"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="         "/>
-            <nbspace/>
-            <ITEXT CH="return"/>
+            <ITEXT CH="           return"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
-            <ITEXT CH="def snake(scr):"/>
+            <ITEXT CH="  def snake(scr):"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="Again we can ignore most of the this report. What is interesting is the text between &lt;&lt;&lt;&lt;&lt;&lt;&lt;, ======= and &gt;&gt;&gt;&gt;&gt;&gt;&gt;. The markers are inserted by Git to show the line that is different in each version."/>
@@ -491,60 +441,37 @@
             <ITEXT CH=" git diff"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="diff --cc game/snake.py"/>
+            <ITEXT CH=" diff --cc game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="index f3e61d9,8db9999..0000000"/>
+            <ITEXT CH=" index f3e61d9,8db9999..0000000"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="--- a/game/snake.py"/>
+            <ITEXT CH=" --- a/game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="+++ b/game/snake.py"/>
+            <ITEXT CH=" +++ b/game/snake.py"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="@@@ -47,9 -47,9 +47,9 @@@ def add_block(scr, width, height)"/>
+            <ITEXT CH=" @@@ -47,9 -47,9 +47,9 @@@ def add_block(scr, width, height)"/>
             <para PARENT="Code"/>
-            <ITEXT CH="             "/>
-            <nbspace/>
-            <nbspace/>
-            <ITEXT CH="empty = False"/>
+            <ITEXT CH="               empty = False"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
             <para PARENT="Code"/>
-            <ITEXT CH="        "/>
-            <nbspace/>
-            <ITEXT CH="if empty:"/>
+            <ITEXT CH="         if empty:"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="-         # if it is, replace it with a &quot;Y&quot; and return"/>
+            <ITEXT CH=" -         # if it is, replace it with a &quot;Y&quot; and return"/>
             <para PARENT="Code"/>
             <ITEXT CH=" -"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="-         scr.addch(y, x, ord(&quot;R&quot;), curses.color_pair(2))"/>
+            <ITEXT CH=" -         scr.addch(y, x, ord(&quot;R&quot;), curses.color_pair(2))"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="+         # if it is, replace it with a &quot;R&quot; and return"/>
+            <ITEXT CH=" +         # if it is, replace it with a &quot;R&quot; and return"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="-        scr.addch(y, x, ord(&quot;Y&quot;), curses.color_pair(curses.COLOR_GREEN))"/>
+            <ITEXT CH=" -        scr.addch(y, x, ord(&quot;Y&quot;), curses.color_pair(curses.COLOR_GREEN))"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="++        scr.addch(y, x, ord(&quot;R&quot;), curses.color_pair(curses.COLOR_GREEN))"/>
+            <ITEXT CH=" ++        scr.addch(y, x, ord(&quot;R&quot;), curses.color_pair(curses.COLOR_GREEN))"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="         "/>
-            <nbspace/>
-            <ITEXT CH="return"/>
+            <ITEXT CH="           return"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <nbspace/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="def snake(scr):"/>
+            <ITEXT CH=" def snake(scr):"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="It will probably take a little while to verify that this report shows we have completed the change. Once we are happy, (and we should also probably do a test as well), then we can add and commit the change."/>
@@ -556,8 +483,7 @@
             <ITEXT CH=" git commit -m &quot;Merged in Rocks being 'R'&quot;"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="[master c4cc45a] Merged in Rocks being 'R'"/>
+            <ITEXT CH=" [master c4cc45a] Merged in Rocks being 'R'"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="12" CH="So "/>
@@ -630,15 +556,12 @@
             <ITEXT CH=" git difftool master make_rocks_R"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="merge tool candidates: opendiff kdiff3 tkdiff xxdiff meld kompare gvimdiff diffuse ecmerge p4merge araxis bc3 emerge vimdiff"/>
+            <ITEXT CH=" merge tool candidates: opendiff kdiff3 tkdiff xxdiff meld kompare gvimdiff diffuse ecmerge p4merge araxis bc3 emerge vimdiff"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="Viewing: 'game/snake.py'"/>
+            <ITEXT CH=" Viewing: 'game/snake.py'"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="Launch 'kdiff3' [Y/n]:"/>
+            <ITEXT CH=" Launch 'kdiff3' [Y/n]:"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT CH="Press &lt;Y&gt; and the above screen should appear."/>
@@ -665,8 +588,7 @@
             <ITEXT CH=" version-control-basics.git"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <nbspace/>
-            <ITEXT CH="Cloning into 'version-control-basics'..."/>
+            <ITEXT CH=" Cloning into 'version-control-basics'..."/>
             <para PARENT="Code"/>
             <ITEXT CH="Ignoring files"/>
             <para PARENT="Body sub-title"/>
